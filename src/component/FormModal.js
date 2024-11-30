@@ -1,9 +1,52 @@
 'use client'
+import axios from 'axios';
 import React, { useState } from 'react'
 import { Button, Modal } from "react-bootstrap";
+import Swal from 'sweetalert2';
 
 const FormModal = ({ show, handleClose }) => { 
+  const intial = {
+    fname : "",
+lname : "",
+email : "",
+phone : "",
+education : "",
+course_type : ""
+ }
+const [formdata , SetFormData]=useState(intial)
 
+
+const HandleChange = (e)=>{
+ SetFormData({...formdata , [e.target.name]: e.target.value})
+}
+
+const handleSubmit = async (e)=>{
+ e.preventDefault();
+ console.log(formdata,"formdata");
+ 
+ try {
+    const response = await axios.post("https://russianclassesindelhi.com/admin/public/api/upload_case_outsource_main" , formdata)
+    if(response.status == 201){
+       Swal.fire({
+          title : "Form Submitted",
+          icon : "success",
+          showConfirmButton: false,
+          timer: 1500
+       })
+       SetFormData(intial);
+       handleClose();
+    }
+    
+ } catch (error) {
+    Swal.fire({
+       title : "Something went wrong",
+       icon : "error",
+       confirmButtonText : "Ok"
+    })
+    
+ }
+
+}
   return (
     <> 
     <Modal show={show} onHide={handleClose} centered>
@@ -14,25 +57,28 @@ const FormModal = ({ show, handleClose }) => {
         <Modal.Body>
           <div>
             <div className="form-group">
-              <form className='popup-form'>
+              <form className='popup-form' onSubmit={handleSubmit}>
              
             
           
            
               <div className='row'>
             <div className="col-sm-12"> 
-               <input type="text" className='form-control' name='name' id='name' placeholder='Name' required /> 
+               <input type="text" className='form-control' name='fname'  value={formdata.fname} placeholder='First Name' onChange={(e)=>HandleChange(e)} required /> 
+               </div>
+            <div className="col-sm-12"> 
+               <input type="text" className='form-control' name='lname'  value={formdata.lname} placeholder='Last Name' onChange={(e)=>HandleChange(e)} required /> 
                </div>
                <div className="col-sm-12"> 
-                <input type="email" className='form-control' name='email' id='email' placeholder='Email' required  /> 
+                <input type="email" className='form-control' name='email' value={formdata.email}  placeholder='Email' onChange={(e)=>HandleChange(e)} required  /> 
                 </div>
 
                 <div className="col-sm-12"> 
-               <input type="text"  className='form-control' name='phone' id='phone' placeholder='Phone Number' required /> 
+               <input type="text"  className='form-control' name='phone' value={formdata.phone}  placeholder='Phone Number' onChange={(e)=>HandleChange(e)} required /> 
                </div>
                <div className="col-sm-12"> 
                 
-                  <select className='form-control' name='course' id='course' required>
+                  <select className='form-control' name='course_type' value={formdata.course_type}  onChange={(e)=>HandleChange(e)} required>
                      <option>Select Course</option>
                      
                      <option value={1}>French</option>
@@ -54,23 +100,26 @@ const FormModal = ({ show, handleClose }) => {
                </div>
                <div className="col-sm-12"> 
                
-               <textarea className='form-control' name='message' id='message' placeholder='Message'></textarea>
+               <input type="text"  className='form-control' value={formdata.education} name='education' placeholder='Education' required onChange={(e)=>HandleChange(e)}/> 
+
                </div>
-             
+             <div className='col-lg-12 text-end mt-2'>
+             <button type='submit' className='btn border-0  text-white' style={{backgroundColor:'#ac0c30',padding:'10px 25px'}} > 
+            Submit
+          </button>
+             </div>
                </div>
 
               </form>
             </div>
           </div>
         </Modal.Body>
-        <Modal.Footer>
+        {/* <Modal.Footer>  */}
           {/* <Button variant="secondary" onClick={handleClose}>
             Close
           </Button> */}
-          <button  className='btn border-0  text-white' style={{backgroundColor:'#ac0c30',padding:'10px 25px'}} > 
-            Submit
-          </button>
-        </Modal.Footer>
+     
+        {/* </Modal.Footer>  */}
       </Modal>
       </>
   )

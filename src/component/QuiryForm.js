@@ -98,7 +98,7 @@ return (
                </div>
                <div className="mb-3 col-sm-12"> 
                
-               <input type="text"  className='form-control' value={formdata.education} name='education' placeholder='education' required onChange={(e)=>HandleChange(e)}/> 
+               <input type="text"  className='form-control' value={formdata.education} name='education' placeholder='Education' required onChange={(e)=>HandleChange(e)}/> 
 
                </div>
                <div className="form-check my-2">
