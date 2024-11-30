@@ -1,5 +1,53 @@
-import React from 'react'
+"use client";
+
+import React, { useState } from 'react';
+import axios from 'axios';
+import Swal from 'sweetalert2';
+
+
 const QuiryForm = () => {
+   const intial = {
+      fname : "",
+ lname : "",
+ email : "",
+ phone : "",
+ education : "",
+ course_type : ""
+   }
+const [formdata , SetFormData]=useState(intial)
+
+
+const HandleChange = (e)=>{
+   SetFormData({...formdata , [e.target.name]: e.target.value})
+}
+
+const handleSubmit = async (e)=>{
+   e.preventDefault();
+   console.log(formdata,"formdata");
+   
+   try {
+      const response = await axios.post("https://russianclassesindelhi.com/admin/public/api/upload_case_outsource_main" , formdata)
+      if(response.status == 201){
+         Swal.fire({
+            title : "Form Submitted",
+            icon : "success",
+            showConfirmButton: false,
+            timer: 1500
+         })
+         SetFormData(intial)
+      }
+      
+   } catch (error) {
+      Swal.fire({
+         title : "Something went wrong",
+         icon : "error",
+         confirmButtonText : "Ok"
+      })
+      
+   }
+  
+}
+
 return (
 <>
 <section className='Query-form-wrapper pt-pb'>
@@ -7,28 +55,28 @@ return (
       <div className='row'>
          <div className='col-lg-6 Query-form-wrapper'> <img className='img-fluid' src="https://www.pngall.com/wp-content/uploads/5/Learning-PNG-Free-Download.png"/> </div>
          <div className='col-lg-6'>
-           <form className='inquiry-form' action={'https://russianclassesindelhi.com/admin/public/share-link/eyJpdiI6IjcvME9hODJiYUNUM0lvZlpHaTRLYUE9PSIsInZhbHVlIjoiQXdaZnVGc3FhZDFEWmo5djI5aytydz09IiwibWFjIjoiODdkNDE5Yjk5YjJjNjk1ZWJjOWQyZjdmNTU5NjIwN2EyNTNmNjVjY2Y5Y2I0YzMwYmIzOTE4YzU2NTA5YmUxZSIsInRhZyI6IiJ9'} method='post'>
+           <form className='inquiry-form' onSubmit={handleSubmit}>
             <h3> Join Us! </h3>
             <h4>Oracle Global Education</h4>
             <hr></hr>
             <div className='row'>
             <div className="mb-3 col-sm-6"> 
-            <input type="hidden" name="_token" value="eWLg8PasNMujgE014ctuywcdv9i01zxfvXeNlxnY" /> 
-               <input type="text" className='form-control' name='fname' id='fname' placeholder='First Name' required /> 
+   
+               <input type="text" className='form-control' value={formdata.fname} name='fname' id='fname' placeholder='First Name' required  onChange={(e)=>HandleChange(e)}/> 
                </div>
                <div className="mb-3 col-sm-6"> 
-               <input type="text" className='form-control' name='lname' id='lname' placeholder='Last Name' required /> 
+               <input type="text" className='form-control' value={formdata.lname}  name='lname' id='lname' placeholder='Last Name' required onChange={(e)=>HandleChange(e)} /> 
                </div>
                <div className="mb-3 col-sm-6"> 
-                <input type="email" className='form-control' name='email' id='email' placeholder='Email' required  /> 
+                <input type="email" className='form-control' value={formdata.email}  name='email' id='email' placeholder='Email' required  onChange={(e)=>HandleChange(e)} /> 
                 </div>
 
                <div className="mb-3 col-sm-6"> 
-               <input type="text"  className='form-control' name='phone' id='Mobile_Number' placeholder='Phone Number' required /> 
+               <input type="text"  className='form-control' value={formdata.phone} name='phone' placeholder='Phone Number' required onChange={(e)=>HandleChange(e)}/> 
                </div>
                <div className="mb-3 col-sm-12">
                 
-                  <select className='form-control' name='course_type' id='course_type' required>
+                  <select className='form-control' name='course_type' value={formdata.course_type}  required onChange={(e)=>HandleChange(e)}>
                      <option>Select Course</option>
                      
                      <option value={1}>French</option>
@@ -50,11 +98,12 @@ return (
                </div>
                <div className="mb-3 col-sm-12"> 
                
-               <textarea className='form-control' name='education' id='education' placeholder='Message'></textarea>
+               <input type="text"  className='form-control' value={formdata.education} name='education' placeholder='education' required onChange={(e)=>HandleChange(e)}/> 
+
                </div>
                <div className="form-check my-2">
                               <input type="checkbox" className="form-check-input la_check" id="exampleCheck1" name="termscondition" value="accepted" required />
-                              <label className="form-check-label p-0 m-0" for="exampleCheck1"> 
+                              <label className="form-check-label p-0 m-0" htmlFor="exampleCheck1"> 
                               I Accept all
                               <a href="#" target="_blank" className="m-0 p-0">Terms & Conditions </a>
                               </label>
