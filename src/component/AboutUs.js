@@ -18,7 +18,7 @@ const AboutUs = () => {
          <div className="row align-items-center">
            <div className="main-title col-12 col-md-8 col-lg-6">
              <h4 className="sec-title ">
-             Delhi Premier 
+             Oracle language institute
              </h4>
              <h5>Language Learning Center</h5>
              <p className="">

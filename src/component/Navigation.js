@@ -147,10 +147,12 @@ const Navigation = () => {
                   Course
                   <i className='fa-solid fa-angle-down text-secondary'></i>
                 </Link> */}
+                <div className='text-center'>
                 <Link href='#' aria-haspopup="true" aria-expanded="false">
                   Course
                   <i className='fa-solid fa-angle-down text-secondary'></i>
                 </Link>
+                </div>
                 <div className='d-block course-drop-wrap'>
                   <div className='rounded-4 dropdown-bg p-3'>
                     <div className='row'>

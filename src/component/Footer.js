@@ -175,7 +175,7 @@ const Footer = () => {
 </div>
 
 
-<div className="float-sm hidden-xs">
+<div className="float-sm hidden-xs sidebar-social-icon">
    <div className="fl-fl float-fb">
       <a href="https://www.facebook.com/oracleinternationallanguageInstitute/" target="_blank"> Facebook</a>
       <i className="fa-brands fa fa-facebook-f"></i>
