@@ -37,12 +37,12 @@ const LearningJourney = () => {
                 />
                 Your browser does not support the video tag.
               </video> */}
-              <img className="img-fluid w-100" src="https://www.oracleglobaleducation.com/images/banner/banners4.jpg" />
+              <img className="img-fluid w-100" src="/assets/img/oraclebanners1.jpg" />
               <div className="banner-TextWrapper">
-                <h4 className="">Best training institute for </h4>
+                {/* <h4 className="">Best training institute fors </h4>
                 <h5 className="Banner-heading"><b>IELTS, TOEFL, PTE, German, French, Spanish, Chinese & Arabic Etc. <br></br>
-                ONLINE CLASSES-Learn Anything, On Your Schedule</b></h5>
-                <button className="btn-hover DiscoverMore-Abouts color-2" onClick={handleEnrollClick}>Enquiry Now </button>
+                ONLINE CLASSES-Learn Anything, On Your Schedule</b></h5> */}
+                <button className="btn btn-theme2 ml-3 fs-18 " onClick={handleEnrollClick}>Enquire Now </button>
               </div>
             </div>
           </div>
@@ -53,12 +53,24 @@ const LearningJourney = () => {
           </div> */}
           <div> 
             <div className="position-relative">
-              <img className="img-fluid w-100" src="/assets/img/two.jpeg" />
+              <img className="img-fluid w-100" src="/assets/img/oraclebanners3.jpg" />
+              <div className="banner-TextWrapper">
+                {/* <h4 className="">Best training institute fors </h4>
+                <h5 className="Banner-heading"><b>IELTS, TOEFL, PTE, German, French, Spanish, Chinese & Arabic Etc. <br></br>
+                ONLINE CLASSES-Learn Anything, On Your Schedule</b></h5> */}
+                <button className="btn btn-theme2 ml-3 fs-18 " onClick={handleEnrollClick}>Enquire Now </button>
+              </div>
             </div>
           </div>
           <div> 
             <div className="position-relative">
-              <img className="img-fluid w-100" src="/assets/img/three.jpeg" />
+              <img className="img-fluid w-100" src="/assets/img/oraclebanners2.jpg" />
+              <div className="banner-TextWrapper">
+                {/* <h4 className="">Best training institute fors </h4>
+                <h5 className="Banner-heading"><b>IELTS, TOEFL, PTE, German, French, Spanish, Chinese & Arabic Etc. <br></br>
+                ONLINE CLASSES-Learn Anything, On Your Schedule</b></h5> */}
+                <button className="btn btn-theme2 ml-3 fs-18 " onClick={handleEnrollClick}>Enquire Now </button>
+              </div>
             </div>
           </div> 
 

@@ -15,10 +15,10 @@ const AboutUs = () => {
       <div className="hero">
       <div className="item">
        <div className="container">
-         <div className="row align-items-center">
+         <div className="row">
            <div className="main-title col-12 col-md-8 col-lg-6">
              <h4 className="sec-title ">
-             Oracle language institute
+             Oracle International language institute
              </h4>
              <h5>Language Learning Center</h5>
              <p className="">

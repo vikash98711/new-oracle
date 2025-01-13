@@ -39,22 +39,34 @@ const Courses = () => {
                     
                         
                          <div className='content'>
-                                <div className=''>
-                         <span className="bedge ml-0">{courseValue.totalClass} Classes</span>
-
-<span className='bedge'><i className="fa-solid fa-users"></i>&nbsp;<b></b> {courseValue.batchSize}</span>
-                         </div>
                          <h4 className='courses-courseName'>
                              <Link href={`/${courseValue.slug}`}>{courseValue.title}</Link>
                          </h4>
+                        
+                       
                      
                          
-                        
+                         <div className='d-flex justify-content-between align-items-center mt-3'>
                          <p><i className="fa-regular fa-clock"></i>&nbsp;<b>Timing: </b>{courseValue.timing}</p>
+                        <p className="btn btn-theme">
+                             <i className="text-white fa-solid fa-indian-rupee-sign"> {courseValue.price}</i> 
+                             </p>
+                        </div>
+                         {/* <p><i className="fa-regular fa-clock"></i>&nbsp;<b>Timing: </b>{courseValue.timing}</p> */}
                         <p><i className="fa-regular fa-calendar"></i>&nbsp;<b>Duration:  </b>{courseValue.duration}</p>
                       
-                        <p className="btn btn-theme"> <i className="text-white fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</p>
+                        {/* <p className="btn btn-theme"> <i className="text-white fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</p> */}
+                        <div className='mt-3'>
+                            
+                         <span className="bedge ml-0"> 
+                         <i className="fa-solid fa-chalkboard-teacher"> {courseValue.totalClass} Classes</i>&nbsp;
+                            
+                            
 
+                         </span>
+
+<span className='bedge ms-2' style={{backgroundColor:'#004f76 !important'}}><i className="fa-solid fa-users"> {courseValue.batchSize}</i>&nbsp;<b></b></span>
+                         </div>
                          </div>
                      </div>
  
