@@ -150,7 +150,7 @@ const Navigation = () => {
                 <div className='text-center course-dropdown-header'>
                 <Link href='#' aria-haspopup="true" aria-expanded="false" className=''>
                   Course
-                  <i className='fa-solid fa-angle-down text-secondary'></i>
+                  <i className='fa-solid fa-angle-down  course-down-header'></i>
                 </Link>
                 </div>
                 <div className='d-block course-drop-wrap'>

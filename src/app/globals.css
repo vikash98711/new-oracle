@@ -7166,11 +7166,51 @@ span.placement-ratio {
 	}
 	.course-dropdown-header {
 		
-		margin: 10px 0px 10px 12px;
+		margin: 1px 0px 10px 38px;
 	}
 	nav.navbar {
 		/* height: 66px; */
 		box-shadow: none !important
+	}
+	.sticky-top {
+    
+        position: fixed;
+       
+        width: 100%;
+    }
+	.Learining-wrapper {
+        margin-top: 88px;
+      
+    }
+	.Header-small-scrren .nav-link.my-2.my-lg-0.d-flex.gap-xl-5.gap-lg-4.navbar-nav {
+		background-color: #ac0c30;
+		color: white;
+	}
+	.Header-small-scrren .nav-link a {
+		color: white;
+
+    }
+	.course-down-header {
+		margin: 0px 0px 0px 24px;
+	}
+}
+
+
+@media (min-width:569px) and (max-width:990px) {
+	.nav-link.my-2.my-lg-0.d-flex.gap-xl-5.gap-lg-4.navbar-nav {
+		background-color: #ac0c30 !important;
+		color: white;
+	}
+	.Header-small-scrren .nav-link a {
+		color: white;
+
+    }
+	.course-dropdown-header {
+		
+		margin: 1px 0px 10px 38px;
+	}
+	.course-down-header {
+		margin: 0px 0px 0px 24px;
 	}
 }
 
