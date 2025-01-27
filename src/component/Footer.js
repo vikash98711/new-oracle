@@ -221,7 +221,7 @@ const Footer = () => {
 </div>
           </div>
           <div className="container text-center">
-         <p className="btn-hover color-2 d-inline-block"> © 2018 . All Rights Reserved. | Oracle International language institute</p>
+         <p className="btn-hover color-2 d-inline-block footer-bottomestrip"> © 2018 . All Rights Reserved. | Oracle International language institute</p>
         </div>
         </footer>
       </section>

@@ -35,7 +35,7 @@ export function generateMetadata(params) {
 export default function Home() {
   return (
     <>
-    <main style={{width:'100%', height:'100%'}}>
+    <main className="entire-page-wrapper" style={{width:'100%', height:'100%'}}>
       <Navigation />
       <LearningJourney />
       <AboutUs />

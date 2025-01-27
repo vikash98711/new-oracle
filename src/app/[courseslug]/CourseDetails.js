@@ -298,7 +298,7 @@ const CourseDetails = ({ params }) => {
       <div className="fact-one pt-pb">
   <div className="container">
     <div className="row">
-      <div className="col-lg-3 col-md-6 p-0">
+      <div className="col-lg-3 col-md-6 col-sm-12 p-0">
         <div className="fact-one__item text-center bg-color1">
         <span><i className="fa-solid fa-users text-white"></i></span>
           <div className="fact-one__count">
@@ -316,7 +316,7 @@ const CourseDetails = ({ params }) => {
         </div>
       
       </div>
-      <div className="col-lg-3 col-md-6 p-0">
+      <div className="col-lg-3 col-md-6 col-sm-12 p-0">
           <div className="fact-one__item text-center bg-color2">
           <span><i className="fa-solid fa-trophy text-white"></i></span>
           <div className="fact-one__count">
@@ -334,7 +334,7 @@ const CourseDetails = ({ params }) => {
         </div>
       
       </div>
-      <div className="col-lg-3 col-md-6 p-0">
+      <div className="col-lg-3 col-md-6 col-sm-12 p-0">
           <div className="fact-one__item text-center bg-color3">
           <span><i className="fa-solid fa-chair text-white"></i></span>
           <div className="fact-one__count">
@@ -351,7 +351,7 @@ const CourseDetails = ({ params }) => {
         </div>
      
       </div>
-      <div className="col-lg-3 col-md-6 p-0">
+      <div className="col-lg-3 col-md-6 col-sm-12 p-0">
       <div className="fact-one__item text-center bg-color4">
       <span><i className="fa-solid fa-book text-white"></i></span>
           <div className="fact-one__count">
