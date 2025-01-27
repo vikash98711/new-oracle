@@ -7193,6 +7193,48 @@ span.placement-ratio {
 	.course-down-header {
 		margin: 0px 0px 0px 24px;
 	}
+	.sub-banner {
+		margin-top: 69px;}
+
+		.course-details__tabs .nav-tabs button.nav-link {
+			font-size: 11px;
+    padding: 14px 21px;
+		}
+
+		.course-details__title{
+			margin: 0px;
+		}
+		.course-details__meta{
+			margin-bottom: 0px !important;
+		}
+		.course-details__overview h3,h4{
+			text-align: start;
+		
+			font-size: 14px;
+			
+		}
+		.course-details__overview h4 {
+			text-align: start;
+			
+			font-size: 14px;
+		
+		}
+		.course-details__overview b, strong {
+			text-align: start;
+		
+			font-size: 14px;
+			
+		}
+		.course-details__overview__lists li, .course-details__overview ul li, .course-details__curriculum ul li {
+			
+			font-size: 13px;
+			
+			text-align: start;
+		}
+		.course-details__overview__text, .course-details__overview p {
+			
+			text-align: start;
+		}
 }
 
 

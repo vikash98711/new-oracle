@@ -26,6 +26,7 @@ const CourseDetails = ({ params }) => {
   return (
 
     <>
+    <main className="entire-page-wrapper" style={{width:'100%', height:'100%'}}>
 
       <Navigation />
   
@@ -375,7 +376,7 @@ const CourseDetails = ({ params }) => {
 <PlaceMentReview/>
 
       <Footer />
-
+</main>
     </>
   )
 }

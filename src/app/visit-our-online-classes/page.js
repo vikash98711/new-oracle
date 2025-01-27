@@ -14,6 +14,8 @@ const page = () => {
   const CourseList = CourseData
   return (
     <>
+    <main className="entire-page-wrapper" style={{width:'100%', height:'100%'}}>
+
       <Navigation />
 
       {/* <CoomonStudentSlider /> */}
@@ -139,6 +141,7 @@ const page = () => {
       <CourseReview />
       <CompanyLogoSlider />
       <Footer />
+      </main>
     </>
   )
 }
