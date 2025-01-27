@@ -7159,6 +7159,7 @@ span.placement-ratio {
 	}
 	.entire-page-wrapper{
 		padding: 10px;
+		overflow: hidden;
 	}
 	p.btn-hover.color-2.d-inline-block.footer-bottomestrip {
 		font-size: 12px;
