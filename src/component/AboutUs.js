@@ -20,7 +20,7 @@ const AboutUs = () => {
              <h4 className="sec-title ">
              Oracle International language institute
              </h4>
-             <h5>Language Learning Center</h5>
+             <h5 className="mt-3 mb-3">Language Learning Center.</h5>
              <p className="">
              Unleash Your Potential: Learn Languages with Confidence Best training institute for IELTS, TOEFL, PTE, German, French, Spanish, Chinese & Arabic. ORACLE LANGUAGE INSTITUTE is Delhi's leading language learning institute, dedicated to empowering individuals with the skills and confidence to excel in a globalized world. We offer a comprehensive range of language courses, catering to all levels and learning styles. Speak Your Success: Empower Your Journey with Oracle Language Institute – the premier institute for English, IELTS, TOEFL, PTE, German, French, Spanish, Chinese & Arabic....</p>
              <div className="group mt-5">

@@ -62,7 +62,13 @@ const Footer = () => {
                         <li>
                           <Link className="text-white" href="/visit-our-branches-in-delhi">
                             <i className="fa-solid fa-hand-point-right"></i>&nbsp;
-                            Our Branch
+                            Delhi Branch
+                          </Link>
+                        </li>
+                        <li>
+                          <Link className="text-white" href="/visit-our-institute-in-gtb-nagar">
+                            <i className="fa-solid fa-hand-point-right"></i>&nbsp;
+                             GTB Nagar Branch
                           </Link>
                         </li>
                         <li>
@@ -120,7 +126,7 @@ const Footer = () => {
                       </div>
                     </ul>
                   </div>
-              <div className="col-lg-3">
+              <div className="col-lg-4">
                 <ul className="p-0">
                   <h5 className="Secondary-orange-footer">Office Location</h5>
                   <li className="text-white mb-5"><i className="fa-solid fa-location-dot"></i> <span className="Secondary-orange-footer border-bottom">Connaught Place:</span><br></br>3rd Floor, Mythri House, M-5A, Middle Circle, Connaught Place, Delhi - 110001, India
@@ -136,7 +142,7 @@ const Footer = () => {
 
                 </ul>
               </div>
-              <div className="col-lg-3 wrapper-image-Gallery">
+              <div className="col-lg-2 wrapper-image-Gallery">
 
                 <ul className="p-0">
                   <h5 className="Secondary-orange-footer">Contact Us</h5>
@@ -151,28 +157,7 @@ const Footer = () => {
 
 
                 </ul>
-                <div className="Footer-SocialIcons d-flex align-items-center gap-2 mt-3">
-
-<a href="https://www.facebook.com/oraclelanguageinstitute/" className="social-icon-box" target="blank">
-  <i className="fa-brands fa-facebook-f text-white"></i>
-</a>
-
-<a href="https://www.linkedin.com/company/oracle-international-language-institute" className="social-icon-box" target="blank">
-  <i className="fa-brands fa-linkedin-in text-white"></i>
-</a>
-
-<a href="https://www.instagram.com/oraclelanguageinstitute/" className="social-icon-box" target="blank">
-  <i className="fa-brands fa-instagram text-white"></i>
-</a>
-<a href="https://twitter.com/LanguageOracle" className="social-icon-box" target="blank">
-  <i className="fa-brands fa-twitter text-white"></i>
-</a>
-
-<a href="https://www.youtube.com/channel/UC31D8Zz8hOMbJLdZOVpGW9Q" className="social-icon-box" target="blank">
-  <i className="fa-brands fa-youtube text-white"></i>
-</a>
-
-</div>
+   
 
 
 <div className="float-sm hidden-xs sidebar-social-icon">
@@ -181,7 +166,7 @@ const Footer = () => {
       <i className="fa-brands fa fa-facebook-f"></i>
    </div>
    <div className="fl-fl float-tw">
-      <i className="fa-brands fa fa-twitter"></i>
+      <i className="fa-brands fa-x-twitter sticky-x-twiter"></i>
       <a href="https://twitter.com/LanguageOracle" target="_blank">Twitter</a>
    </div>
    <div className="fl-fl float-ig">
@@ -212,7 +197,31 @@ const Footer = () => {
           </div>
           <hr></hr>
           <div className="container text-center">
-         <p className="btn-hover color-2 d-inline-block"> © 2018 . All Rights Reserved. | Oracle Education</p>
+          <div className=" d-flex align-items-center  gap-2 mt-3 justify-content-center">
+
+<a href="https://www.facebook.com/oraclelanguageinstitute/"  target="blank">
+  <i className="fa-brands fa-facebook-f text-white facebookcircle facebook-icon"></i>
+</a>
+
+<a href="https://www.linkedin.com/company/oracle-international-language-institute"  target="blank">
+  <i className="fa-brands fa-linkedin-in text-white social-icon-box linkedin-icon"></i>
+</a>
+
+<a href="https://www.instagram.com/oraclelanguageinstitute/" className="" target="blank">
+  <i className="fa-brands fa-instagram text-white social-icon-box instagram-icons"></i>
+</a>
+<a href="https://twitter.com/LanguageOracle" target="blank">
+  <i className="fa-brands fa-x-twitter text-white social-icon-box twitter-icons"></i>
+</a>
+
+<a href="https://www.youtube.com/channel/UC31D8Zz8hOMbJLdZOVpGW9Q" className="" target="blank">
+  <i className="fa-brands fa-youtube text-white social-icon-box youtube-icons"></i>
+</a>
+
+</div>
+          </div>
+          <div className="container text-center">
+         <p className="btn-hover color-2 d-inline-block"> © 2018 . All Rights Reserved. | Oracle International language institute</p>
         </div>
         </footer>
       </section>

@@ -44,13 +44,13 @@ const HappyStudentStrip = () => {
   <section className='schedule-sec'>
 <div className="container">
     <div className="row d-flex  mb-2 position-relative">
-    <div className='col-sm-8 py-100 pt-pb'>
+    <div className=' col-lg-8 col-md-12 col-sm-12 py-100 pt-pb first-box-schedule'>
    
-    <h2 className='ls-2 text-white'>Book Your Seat For Free Career Counselling!
+    <h2 className='text-white book-your-sheet-strip'>Book Your Seat For Free Career Counselling!
     We'll make you understand the procedures. </h2>
-    <a className='btn-hover bg-white text-primary' href='#'>Sechdule a FREE Call</a>
+    <a className='btn-hover bg-white text-primary Sechdule-afree-call' href='#'>Schedule a FREE Call</a>
     </div>
-    <div className="col-sm-4  mt-2"> 
+    <div className=" col-sm-12 col-lg-4 col-md-12  mt-2 schedule-second-box-image"> 
   
      <img src="https://www.pngkit.com/png/full/362-3629046_corporate-office-girl-call-centre-png.png" className='img-fluid' style={{width:"200px"}}></img>
     </div> 

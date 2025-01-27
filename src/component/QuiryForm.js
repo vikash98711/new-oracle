@@ -98,14 +98,14 @@ return (
                </div>
                <div className="mb-3 col-sm-12"> 
                
-               <input type="text"  className='form-control' value={formdata.education} name='education' placeholder='Education' required onChange={(e)=>HandleChange(e)}/> 
+               <input type="text"  className='form-control' value={formdata.education} name='education' placeholder='Message' required onChange={(e)=>HandleChange(e)}/> 
 
                </div>
                <div className="form-check my-2">
                               <input type="checkbox" className="form-check-input la_check" id="exampleCheck1" name="termscondition" value="accepted" required />
                               <label className="form-check-label p-0 m-0" htmlFor="exampleCheck1"> 
-                              I Accept all
-                              <a href="#" target="_blank" className="m-0 p-0">Terms & Conditions </a>
+                            
+                              <a href="#" target="_blank" className="m-0 p-0">I Accept All Terms & Conditions </a>
                               </label>
                            </div>
                </div>

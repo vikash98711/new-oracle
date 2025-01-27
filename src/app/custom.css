@@ -38,16 +38,28 @@
     --purple: #ab0c2f;
 }
 
+
+
+
+
+
 body{
     font-family: var( --eduact-font) !important;
+    letter-spacing: 1.3px !important;
 }
 a{
     text-decoration: none !important;
       font-family:var(--eduact-font);
    
 }
+
+h5{
+    font-family: var(--eduact-font);
+}
 h2{
     font-size: 40px;
+    font-family: var(--eduact-font);
+
 }
 @media (max-width: 767px){
     h2{
@@ -571,17 +583,35 @@ h2{
 
 /* footer  */
 .social-icon-box{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #4F5DE4;
+    padding: 15px 15px!important;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: center; */
+    /* border: 1px solid #4F5DE4; */
     border-radius: 50%;
     transition: .3s;
 }
-.social-icon-box:hover{
-    background-color: #4F5DE4;
+
+.fa-brands.fa-facebook-f.text-white.facebookcircle.facebook-icon {
+    padding: 15px 18px;
+    border-radius: 50%;
+}
+.facebook-icon{
+    background-color: #3b5998;
+}
+.linkedin-icon{
+    background-color: #007bb6;
+
+}
+.instagram-icons{
+background-color: rgba(214, 41, 118, 1);
+}
+.twitter-icons{
+background-color: #000000;
+}
+.youtube-icons{
+    background-color: #bb0000;
+
 }
 
 

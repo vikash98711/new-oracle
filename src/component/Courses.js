@@ -18,7 +18,7 @@ const Courses = () => {
             <h2 className='sec-title'>Highlighted Programs in Language Courses </h2>
             </div>
             <div className="mb-0 "> 
-                <Link href="/best-international-laungage-courses" className=' border-0 text-white btn-hover color-2 color22 d-flex align-items-center gap-2'>View All
+                <Link href="/best-international-laungage-courses" className=' border-0 text-white btn-hover color-2 color22 d-flex align-items-center gap-2 courses-view-all'>View All
                 <img src="/assets/img/viewAll.gif" alt="view" width={28} />
                  </Link> 
             </div> 
@@ -48,9 +48,9 @@ const Courses = () => {
                          
                          <div className='d-flex justify-content-between align-items-center mt-3'>
                          <p><i className="fa-regular fa-clock"></i>&nbsp;<b>Timing: </b>{courseValue.timing}</p>
-                        <p className="btn btn-theme">
+                        {/* <p className="btn btn-theme">
                              <i className="text-white fa-solid fa-indian-rupee-sign"> {courseValue.price}</i> 
-                             </p>
+                             </p> */}
                         </div>
                          {/* <p><i className="fa-regular fa-clock"></i>&nbsp;<b>Timing: </b>{courseValue.timing}</p> */}
                         <p><i className="fa-regular fa-calendar"></i>&nbsp;<b>Duration:  </b>{courseValue.duration}</p>

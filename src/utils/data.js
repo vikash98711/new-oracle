@@ -203,7 +203,7 @@ export const CourseData = [
         slug: 'best-spanish-language-institute-in-delhi',
         duration: '3 Months - 18 Months',
         timing: '8:30 AM - 6:30 PM',
-        batchSize: '8 - 10',
+        batchSize: '8-10',
         videosTime: '10 Hours',
         skillLevel: 'Advanced',
         language: 'English',

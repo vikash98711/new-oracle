@@ -20,23 +20,23 @@ const Faq = () => {
                             <ul className="position-relative faq-list-wrap">
                                 <li>
                                     <span className="fa-solid fa-check icon-check faq-icon" />
-                                    <p><span>Translation & Interpretation:</span>This is a classic career path for language learners. You can work as a freelance translator, a staff translator for a company, or a conference interpreter. </p>
+                                    <p><span>Translation & Interpretation: </span>This is a classic career path for language learners. You can work as a freelance translator, a staff translator for a company, or a conference interpreter. </p>
                                 </li>
                                 <li>
                                     <span className="fa-solid fa-check icon-check faq-icon" />
-                                    <p><span>International Business & Sales:</span>Multilingual skills are highly sought-after in today's globalized business world. You can pursue careers in international marketing, sales, or business development. </p>
+                                    <p><span>International Business & Sales: </span>Multilingual skills are highly sought-after in today's globalized business world. You can pursue careers in international marketing, sales, or business development. </p>
                                 </li>
                                 <li>
                                     <span className="fa-solid fa-check icon-check faq-icon" />
-                                    <p><span>Education & Teaching:</span>Become a language instructor and share your passion for languages with others. You can teach at international schools, language institutes, or online platforms. </p>
+                                    <p><span>Education & Teaching: </span>Become a language instructor and share your passion for languages with others. You can teach at international schools, language institutes, or online platforms. </p>
                                 </li>
                                 <li>
                                     <span className="fa-solid fa-check icon-check faq-icon" />
-                                    <p><span>Tourism & Hospitality:</span>Language skills are crucial in the tourism and hospitality sectors. You can work as a tour guide, travel agent, hotel receptionist, or cruise ship staff.</p>
+                                    <p><span>Tourism & Hospitality: </span>Language skills are crucial in the tourism and hospitality sectors. You can work as a tour guide, travel agent, hotel receptionist, or cruise ship staff.</p>
                                 </li>
                                 <li>
                                     <span className="fa-solid fa-check icon-check faq-icon" />
-                                    <p><span>Government & Diplomacy:</span>Multilingualism is an asset for government jobs and diplomatic careers. You can work as a foreign service officer, embassy representative, or international relations specialist.</p>
+                                    <p><span>Government & Diplomacy: </span>Multilingualism is an asset for government jobs and diplomatic careers. You can work as a foreign service officer, embassy representative, or international relations specialist.</p>
                                 </li>
                             </ul>
                         </Accordion.Body>
@@ -91,7 +91,7 @@ const Faq = () => {
                                 </li>
                                 <li>
                                     <span className="fa-solid fa-check icon-check faq-icon" />
-                                    <p><span>Arabic:</span>
+                                    <p><span>Arabic: </span>
                                     The growing importance of the Middle East in global trade makes Arabic a valuable skill, especially for business and energy sectors.</p>
                                 </li>
                             </ul>

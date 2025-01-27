@@ -4,7 +4,7 @@
 /* arabic */
 /* @font-face {
   font-family: 'Open Sans', sans-serif !important;
-  font-family:'Open Sans', sans-serif;
+  font-family:'__Roboto_10f679', '__Roboto_Fallback_10f679';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -20,16 +20,25 @@ body {
 	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
 	background-color: #fff;
 	font-weight: 500;
+	letter-spacing: 1.3px !important;
 }
 
 :root {
 
-	/* --eduact-font: 'Open Sans', sans-serif; */
-	--eduact-font:'Urbanist', sans-serif
+	/* --eduact-font: '__Roboto_10f679', '__Roboto_Fallback_10f679'; */
+	--eduact-font:'__Roboto_10f679', '__Roboto_Fallback_10f679';
 }
 
+
+.accordion-button{
+	letter-spacing: 1.3px;
+}
 a {
 	font-family: var(--eduact-font);
+}
+
+.rating-color{
+	color: #FFC107;
 }
 
 body{
@@ -39,7 +48,7 @@ body{
 	font-family: var(--eduact-font) !important;
 
 }
-p{
+p , h3{
 	font-family: var(--eduact-font) !important;
 
 }
@@ -84,7 +93,7 @@ p {
 
 	font-size: 20px;
 	color: #000000;
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 }
 
 h5 {
@@ -104,9 +113,9 @@ h2 {
 
 :root {
 	--primary: #ac0c30;
-	/* --eduact-font: 'Open Sans', sans-serif; */
+	/* --eduact-font: '__Roboto_10f679', '__Roboto_Fallback_10f679'; */
 	--eduact-font: '__Roboto_10f679', '__Roboto_Fallback_10f679'  
-	--heading-font: 'Open Sans', sans-serif;
+	--heading-font: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 	--eduact-text: #444444;
 	--eduact-text-rgb: 105, 117, 133;
 	--eduact-text2: #B3ADE1;
@@ -348,7 +357,7 @@ h6 {
 	color: #000000;
 	font-size: 20px;
 	margin: 0 0 10px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 }
 
 .wrapper-blogs-details-content span {
@@ -364,7 +373,7 @@ h6 {
 	font-weight: 500;
 	font-size: 16px;
 	color: #ac0c30;
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 }
 
 .btn-hover {
@@ -373,6 +382,7 @@ h6 {
 	transition: all .4s ease-in-out;
 	text-transform: uppercase;
 	color: #fff;
+	background-color: #ac0c30 !important;
 	padding: 8px 20px;
 	font-weight: bold;
 	font-size: 16px;
@@ -942,13 +952,13 @@ footer {
 
 .Footer-section ul h5 {
 	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 
 }
 
 .Footer-section ul span {
 	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 
 }
 
@@ -1285,7 +1295,7 @@ footer {
 	font-weight: 500;
 	max-width: 230px;
 	margin: 0 auto 32px;
-	color: rgb(105, 117, 133);
+	color: rgb(39 44 51);;
 }
 
 .service-two__title a:hover {
@@ -1558,18 +1568,25 @@ section.courses-review-wrapper {
 
 .fact-one .bg-color1 {
 	background: #004f76 !important;
+	margin: 5px;
 }
 
 .fact-one .bg-color2 {
 	background: #004f76;
+	margin: 5px;
+
 }
 
 .fact-one .bg-color3 {
 	background: #004f76;
+	margin: 5px;
+
 }
 
 .fact-one .bg-color4 {
 	background: #004f76;
+	margin: 5px;
+
 }
 
 .fact-one__count .count-box {
@@ -1864,7 +1881,7 @@ section.courses-review-wrapper {
 	color: #ac0c30;
 	font-size: 28px !important;
 	margin: 0 0 32px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 	font-weight: 400;
 }
 
@@ -2469,14 +2486,14 @@ thead tr.table-danger {
 }
 
 .course-details__sidebar__title {
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679'; */
 	color: #fff;
 	background-color: #004f76;
 	padding: 10px;
 	font-size: 20px;
 	font-weight: 400;
 	text-align: center;
-	border-radius: 10px;
+	border-radius: 5px;
 	margin-bottom: 0px;
 
 }
@@ -2503,7 +2520,7 @@ p.course-details__overview__text {
 	font-weight: 400;
 	font-size: 28px;
 	color: #ac0c30;
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 }
 
 .course-details__sidebar__lists li {
@@ -2653,26 +2670,28 @@ p.course-details__overview__text {
 }
 
 .more-course li {
-	background-color: #ac0c30;
-	color: #fff;
+	/* background-color: #ac0c30; */
+	color: white !important;
 	margin-bottom: 5px;
-	box-shadow: 0px 5px 7px #ddd;
-	border-radius: 5px;
-	padding: 5px 10px;
+	box-shadow: 0px 5px 7px #ad8f8f;
+    border-radius: 5px;
+    padding: 14px 10px;
+	font-size: 15px;
 }
 
-.more-course li:hover {
+/* .more-course li:hover {
 	background-color: #004f76;
-	color: #fff;
-	margin-bottom: 5px;
-	box-shadow: 0px 5px 7px #ddd;
-	border-radius: 5px;
-	padding: 5px 10px;
+	color: white !important;
+
 }
+.more-course li a:hover {
+	color: white !important;
+
+} */
 
 .more-course li a {
 	font-weight: 500;
-	color: #fff;
+	color: black;
 }
 
 .course-details__sidebar__post__ratings__reviews {
@@ -4725,7 +4744,7 @@ background-size: contain;
 }
 
 .course-two__title a {
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 	color: #004f76;
 	font-size: 20px;
 	background-image: linear-gradient(currentcolor, currentcolor), linear-gradient(currentcolor, currentcolor);
@@ -5078,7 +5097,7 @@ strong {
 	font-weight: 500;
 	font-size: 18px;
 	color: #004f76;
-	font-family: 'Open Sans', sans-serif;
+	
 }
 
 .course-details__overview h4 {
@@ -5087,13 +5106,13 @@ strong {
 	color: #004f76;
 	margin-bottom: 10px;
 	margin-top: 35px;
-	font-family: 'Open Sans', sans-serif;
+	
 }
 
 .course-details__curriculum__title {
 	font-size: 20px !important;
 	color: #000000 !important;
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 }
 
 .course-details__meta {
@@ -5781,7 +5800,7 @@ a {
 	overflow: hidden;
 	z-index: 2;
 	height: 250px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 	border: 1px solid #004f76;
 	border-radius: 20px;
 
@@ -5789,7 +5808,7 @@ a {
 }
 
 .contact-info__text a {
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 
 }
 
@@ -6073,7 +6092,7 @@ a {
 
 .sidebar__post__content__title a {
 	color: #000000;
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 	font-weight: 500;
 
 
@@ -6115,8 +6134,8 @@ a {
 
 .course-details__tabs .nav-tabs .nav-link.active {
 	color: var(--eduact-white) !important;
-	background-color: #ac0c30;
-	border-color: #ac0c30;
+	background-color: #014f76;
+	border-color: #014f76;
 }
 
 .course-details__tabs .nav-tabs button.nav-link {
@@ -6127,7 +6146,7 @@ a {
 	border: none;
 
 
-	border-radius: 30px;
+	border-radius: 10px;
 	padding: 14px 30px;
 	line-height: 1;
 	display: block;
@@ -6254,7 +6273,7 @@ a {
 
 .dropdown-menu a {
 	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 }
 
 .dropdown-menu a:hover {
@@ -6424,16 +6443,17 @@ a {
 }
 
 .feedback .card {
-	border: 3px solid #ac0c30;
+	/* border: 3px solid #ac0c30; */
 	box-shadow: 0px 5px 7px #ddd;
 	padding: 10px 30px;
 	border-radius: 23px;
 }
 
 .feedback .card img {
-	border: 3px solid #ac0c30;
-	box-shadow: 0px 5px 7px #ddd;
-	padding: 3px;
+	border: 3px solid #09567b !important;
+    box-shadow: 0px 5px 9px #ddd;
+    padding: 3px;
+    border-radius: 15px 5px 15px 5px !important;
 
 }
 
@@ -6450,7 +6470,7 @@ a {
 }
 
 .feedback .card p {
-	color: #004f76;
+	color: #293034;
 	font-weight: 500;
 	font-size: 16px !important;
 	
@@ -6512,29 +6532,45 @@ nav.navbar {
 	color: #fff;
 	top: 160px;
 	background: #3b5998;
+	margin-top: 6px;
 }
 
 .float-tw {
 	top: 215px;
 	color: #fff;
-	background: #00aced;
-}
+	background: #000000;
+	margin-top: 10px;
 
+}
+.sticky-x-twiter{
+	font-size: 18px !important;
+    color: #fff;
+    padding: 15px 0px;
+    width: 40px;
+    margin-right: -16px;
+    float: right;
+}
 .float-lin {
 	top: 270px;
 	color: #fff;
 	background: #007bb6;
+	margin-top: 15px;
+
 }
 
 .float-rs {
 	top: 325px;
 	display: none;
+	margin-top: 20px;
+
 }
 
 .float-ig {
 	top: 325px;
 	color: #fff;
 	background: #c32aa3;
+	margin-top: 20px;
+
 
 }
 
@@ -6542,20 +6578,23 @@ nav.navbar {
 	top: 380px;
 	color: #fff;
 	background: #bb0000;
+	margin-top: 25px;
+
 }
 
 .fl-fl {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	padding: 4px;
-	width: 154px;
+	width: 163px;
 	border-bottom-right-radius: 0px;
-	border-top-right-radius: 0px;
+	border-top-right-radius: 15px;
 	position: fixed;
 	left: -121px;
 	z-index: 1000;
 	font: normal normal 10px Arial;
 	transition: all .25s ease;
+	
 }
 
 .fl-fl .fa {
@@ -6747,7 +6786,7 @@ nav.navbar {
 	letter-spacing: 1.2px;
 	font-weight: 500;
 	color: #ab0c2f;
-	font-weight: bold;
+	/* font-weight: bold; */
 	text-transform: capitalize;
 }
 
@@ -6933,6 +6972,65 @@ i.fa-solid.fa-chalkboard-teacher {
 	padding: 30px !important;
 }
 
+
+a.btn-hover.bg-white.text-primary.Sechdule-afree-call {
+    padding: 21px 36px;
+    font-size: 22px;
+    letter-spacing: 2.5px;
+}
+.book-your-sheet-strip {
+	margin-bottom: 75px;
+}
+.place-mentwrapper-card{
+	width: 88% !important;
+}
+
+.placement-review-wrapper .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.placement-review-wrapper .slick-next {
+	right: 0px;
+}
+
+.placement-review-wrapper .slick-prev {
+    left: -40px;
+}
+
+.placement-slider-wrappersection {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://www.oracleglobaleducation.com/images/bg/languages-banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-attachment: fixed;
+}
+h5.mb-0.text-white.placement-slider-tag {
+    background-color: #AC0B30;
+    padding: 21px;
+    border-radius: 5px;
+}
+h2.sec-title.placement-ratio-wrapper {
+    margin-top: 8px;
+    background-color: #284167;
+    padding: 12px;
+}
+
+span.placement-ratio {
+    font-size: 26px;
+	color: yellow;
+}
+
+.courses-view-all:hover{
+	background-color: #004F76 !important;
+}
+
 @media (min-width:200px) and (max-width:568px) {
 	.sidebar-social-icon{
 		display: none;
@@ -6951,7 +7049,109 @@ i.fa-solid.fa-chalkboard-teacher {
 	}
 	p{
 		font-size: 14px;
-		text-align: justify;
+		/* text-align: justify; */
+	}
+	h2{
+		font-size: 16px !important;
+	}
+	.main-title .sec-title {
+        
+        margin-top: 10px;
+    }
+	.courses-card-box .courses-courseName a {
+		font-size: 15px;
+	}
+	.courses-card-box .bedge{
+		font-size: 9px;
+	}
+	i.fa-solid.fa-chalkboard-teacher {
+		
+		font-size: 9px;
+	}
+	.bedge i.fa-solid.fa-users {
+		font-size: 9px;
+
+	}
+	p {
+        font-size: 13px;
+        
+    }
+	.faq-icon {
+    width: 16px !important;
+    height: 16px !important;
+    font-size: 9px !important;
+	}
+
+.first-box-schedule {
+	text-align: center;
+}
+	.CareerCounsellingStrip-wrapper button {
+		font-size: 13px;
+		padding: 11px 21px;
+	
+	}
+	.CareerCounsellingStrip-wrapper h1{
+		font-size: 16px;
+	}
+
+	.right-arrow-foter-wrapper a{
+		font-size: 13px;
+	}
+	.sitemap-widget li a {
+		font-size: 13px;
+
+	}
+	.Footer-section ul li {
+		font-size: 13px;
+
+	}
+	.notice-board .card-content h3 {
+		font-size: 13px;
+	}
+	.notice-board .card-content .btn-theme {
+		padding: 4px 7px;
+		font-size: 12px;
+		margin-top: 5px;
+	}
+	.Header-small-scrren {
+		justify-content: start !important;
+	}
+	.book-your-sheet-strip {
+		margin-bottom: 39px;
+		letter-spacing: 2.5px;
+	}
+	a.btn-hover.bg-white.text-primary.Sechdule-afree-call {
+		padding: 21px 23px;
+		font-size: 17px;
+		letter-spacing: 2.5px;
+	}
+	.schedule-second-box-image{
+		display: none;
+	}
+	.service-two__text{
+		text-align: center !important;
+		
+	}
+	.feedback .card p {
+		text-align: start;
+		font-size: 14px !important;
+	}
+	.feedback .card .designation {
+		font-size: 14px !important;
+	}
+	.feedback .card h5 {
+	
+		font-size: 15px !important;
+	}
+	.placement-p-tag{
+		text-align: center !important;
+	}
+	.place-mentwrapper-card{
+		width: 100% !important;
+	}
+	.placement-review-wrapper .slick-prev {
+		left: -11px;
+		z-index: 5;
 	}
 }
 

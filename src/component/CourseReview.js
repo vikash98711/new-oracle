@@ -4,7 +4,7 @@ import Slider from "react-slick";
 
 const CourseReview = () => {
   const settings = {
-    dots: false,
+    dots: true,
     autoPlay: true,
     infinite: true,
     speed: 500,
@@ -67,7 +67,7 @@ const CourseReview = () => {
   ];
 
   return (
-    <section className="pt-pb">
+    <section className="pt-pb student-testimonial-wrapper">
       <div className="container">
       <div className="main-title text-center mb-0">
           <h5 className="mb-0">Language Courses Feedback</h5>
@@ -81,24 +81,29 @@ const CourseReview = () => {
                   <div className="feedback" key={i}>
                     <div className="card m-3">
                       <div className="card-body row d-flex align-items-center justify-content-center mb-2">
-                        <div className="col-sm-4">
-                          <img src={val.image} className="rounded-circle img-fluid mb-2" />
+                        <div className="col-sm-4 text-center">
+                          <img src={val.image} className="rounded-circle img-fluid mb-2" style={{margin:'0 auto'}} />
+                          <h5 className="text-uppercase">{val.name}</h5>
+                                  
                         </div>
                         <div className="col-sm-8">
-                          <h5 className="text-uppercase">{val.name}</h5>
+                          <div className="ms-3">
                           <p className="designation">|| {val.occupation} <span className="text-capitalize">{val.subject} ||</span></p>
+
                           <div className='d-flex align-items-center mb-3 gap-2'>
                             <div className='d-flex '>
-                              <i className="fa-solid text-secondary fa-star"></i>
-                              <i className="fa-solid text-secondary fa-star"></i>
-                              <i className="fa-solid text-secondary fa-star"></i>
-                              <i className="fa-solid text-secondary fa-star"></i>
-                              <i className="fa-solid text-secondary fa-star"></i>
+                              <i className="fa-solid rating-color fa-star"></i>
+                              <i className="fa-solid rating-color fa-star"></i>
+                              <i className="fa-solid rating-color fa-star"></i>
+                              <i className="fa-solid rating-color fa-star"></i>
+                              <i className="fa-solid rating-color fa-star"></i>
                             </div>
+                            
                           </div>
+                      <p>{val.comment}</p>
+                      </div>
                         </div>
                       </div>
-                      <p>{val.comment}</p>
                     </div>
                   </div>
                 ))}

@@ -18,6 +18,7 @@ import CareerCounsellingStrip from "@/component/CareerCounsellingStrip";
 import QuiryForm from "@/component/QuiryForm";
 import CompanyLogoSlider from "@/component/CompanyLogoSlider";
 import Faq from "@/component/Faq";
+import PlaceMentReview from "@/component/PlaceMentReview";
 
 
 export function generateMetadata(params) {
@@ -39,6 +40,8 @@ export default function Home() {
       <LearningJourney />
       <AboutUs />
       <Courses />
+      <PlaceMentReview/>
+
       <OurService />
       
       <CourseReview />
