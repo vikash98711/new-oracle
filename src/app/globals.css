@@ -7060,7 +7060,7 @@ span.placement-ratio {
         margin-top: 10px;
     }
 	.courses-card-box .courses-courseName a {
-		font-size: 15px;
+		font-size: 13px;
 	}
 	.courses-card-box .bedge{
 		font-size: 9px;
@@ -7249,6 +7249,26 @@ span.placement-ratio {
 			border-radius: 50%;
 			font-size: 16px;
 		}
+	 h5 {
+			font-size: 13px !important;
+		}
+
+		.wrapper-company-logos-sslider .slick-initialized .slick-slide{
+			background-color: #fff;
+            border-radius: 8px;
+         border: 1px dashed #ac9393;
+		 margin: 0px !important;
+		}
+		/* .wrapper-company-logos-sslider	.slick-track{
+			transform: none !important;
+		} */
+		.Learining-wrapper .slick-slide img{
+			height: 29vh;
+		}
+		.noticeboard-slider img{
+			height: 253px;
+		}
+
 }
 
 

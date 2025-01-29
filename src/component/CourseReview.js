@@ -5,11 +5,11 @@ import Slider from "react-slick";
 const CourseReview = () => {
   const settings = {
     dots: false,
-    autoPlay: true,
+    autoplay: true,
     infinite: true,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 768, // Adjust this value based on your needs

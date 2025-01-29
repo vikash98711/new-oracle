@@ -707,3 +707,21 @@ background-color: #000000;
     font-style: italic;
     line-height: 1.5;
    }
+
+
+
+   @media (min-width:200px) and (max-width:568px) {
+    .course-drop-wrap .dropdown-bg{
+        background: white !important
+     }
+     
+     .course-drop-wrap  a.Common-menu-items{
+         color: black !important;
+        
+      }
+      .course-drop-wrap  a.Common-menu-items i{
+         color: black !important;
+        
+      }
+    
+   }

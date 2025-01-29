@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Slider from "react-slick";
 const settings = {
     dots: false,
-    autoPlay: true,
+    autoplay: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -75,7 +75,7 @@ const Blog = () => {
                                 {noticeData.length > 0 ? (
                                     noticeData.slice(0, 4).map((noticeValue) => (
                                         <div className="px-2" key={noticeValue.id}>
-                                            <div className="notice-board">
+                                            <div className="notice-board noticeboard-slider">
                                                 <img src={noticeValue.image} alt="blog" className='img-fluid w-100 ' />
                                                 <div className="card-content">
                                                 <h3 className='text-ellipsis'>{noticeValue.title}</h3>

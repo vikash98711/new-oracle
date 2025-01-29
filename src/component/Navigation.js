@@ -160,7 +160,7 @@ const Navigation = () => {
                         <div className='col-lg-4 col-md-6 col-sm-6' key={courseValue.id}>
                           <Link href={`/${courseValue.slug}`} className='Common-menu-items text-capitalize'>
                             <i className='fa-solid fa-angles-right text-secondary'></i>&nbsp;
-                            {courseValue.name}
+                             {courseValue.name}
                           </Link>
                         </div>
                       ))}
@@ -175,7 +175,7 @@ const Navigation = () => {
               <Link href='/contact-us-for-more-information'>Contact</Link>
             </Nav>
 
-            <div className='d-flex align-items-center gap-3'>
+            <div className='d-flex align-items-center justify-content-center gap-3'>
               <button className='btn-hover color-2 Enroll-button-header' onClick={handleEnrollClick}>
                 Enroll Now
               </button>

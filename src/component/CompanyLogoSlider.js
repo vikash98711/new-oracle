@@ -4,11 +4,43 @@ import React from 'react';
 import Slider from 'react-slick';
 
 const CompanyLogoSlider = () => {
+  // const settings = {
+  //   dots: false,
+  //   autoPlay: true,
+  //   infinite: true,
+  //   speed: 1000,
+  //   slidesToShow: 5,
+  //   slidesToScroll: 2,
+  //   centerMode: false,
+  //   focusOnSelect: false,
+  //   arrows: true, // Disable arrows
+  //   responsive: [
+  //     {
+  //       breakpoint: 992, // Medium screen
+  //       settings: {
+  //         slidesToShow: 2,
+  //         centerMode: false,
+  //         focusOnSelect: false
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 576, // Small screen
+  //       settings: {
+  //         slidesToShow: 1,
+  //         centerMode: false,
+  //         focusOnSelect: false
+  //       }
+  //     }
+  //   ]
+  // };
+
+
+  
   const settings = {
     dots: false,
-    autoPlay: true,
+    autoplay: true, // Corrected here
     infinite: true,
-    speed: 800,
+    speed: 1000,
     slidesToShow: 5,
     slidesToScroll: 2,
     centerMode: false,
