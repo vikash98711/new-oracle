@@ -27,8 +27,8 @@ const CompanyLogoSlider = () => {
         breakpoint: 576, // Small screen
         settings: {
           slidesToShow: 1,
-          centerMode: true,
-          focusOnSelect: true
+          centerMode: false,
+          focusOnSelect: false
         }
       }
     ]
