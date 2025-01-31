@@ -38,8 +38,9 @@ const handleSubmit = async (e)=>{
     }
     
  } catch (error) {
+  const errorMessage = error.response?.data?.message || "Something went wrong!";
     Swal.fire({
-       title : "Something went wrong",
+       title : errorMessage,
        icon : "error",
        confirmButtonText : "Ok"
     })
