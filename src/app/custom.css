@@ -6,8 +6,6 @@
 :root {
     --primary : #ab0c2f;
     --light: #F1F2FD;
-    /* --eduact-font: 'Urbanist', sans-serif; */
-    --eduact-font: '__Roboto_10f679', '__Roboto_Fallback_10f679';
     --heading-font: 'Urbanist', sans-serif;
     --eduact-text: #000;
     --eduact-text-rgb: 105, 117, 133;
