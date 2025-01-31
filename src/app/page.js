@@ -103,9 +103,6 @@ export default function Home() {
       <main className="entire-page-wrapper" style={{ width: "100%", height: "100%" }}>
        
           <Navigation />
-        
-
-        
           <LearningJourney />
        
 
