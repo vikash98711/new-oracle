@@ -1,42 +1,28 @@
 @import '@fortawesome/fontawesome-free/css/all.css';
 @import '@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* arabic */
-/* @font-face {
-  font-family: 'Open Sans', sans-serif !important;
-  font-family:'__Roboto_10f679', '__Roboto_Fallback_10f679';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v28/iJWKBXyIfDnIV7nErXyi0A.woff2) format('woff2');
-  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EFD-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
-}  */
 
 html,
 body {
 	line-height: 1.8;
 	color: #666666;
 	font-size: 16px;
-	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+	font-family: "Roboto", serif !important;
 	background-color: #fff;
 	font-weight: 500;
 	letter-spacing: 1.3px !important;
 }
 
-:root {
-
-	/* --eduact-font: '__Roboto_10f679', '__Roboto_Fallback_10f679'; */
+/* :root {
 	--eduact-font: '__Roboto_10f679', '__Roboto_Fallback_10f679';
-}
-
+} */
 
 .accordion-button {
 	letter-spacing: 1.3px;
 }
 
-a {
-	font-family: var(--eduact-font);
-}
+
 
 .rating-color {
 	color: #FFC107;
@@ -46,15 +32,11 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: var(--eduact-font) !important;
+	
 
 }
 
-p,
-h3 {
-	font-family: var(--eduact-font) !important;
 
-}
 
 h1,
 h2,
@@ -62,7 +44,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--heading-font);
+	
 	color: var(--eduact-black);
 	font-weight: 500;
 }
@@ -96,7 +78,7 @@ p {
 
 	font-size: 20px;
 	color: #000000;
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
+	
 }
 
 h5 {
@@ -116,9 +98,6 @@ h2 {
 
 :root {
 	--primary: #ac0c30;
-	/* --eduact-font: '__Roboto_10f679', '__Roboto_Fallback_10f679'; */
-	--eduact-font: '__Roboto_10f679', '__Roboto_Fallback_10f679'
-		--heading-font: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 	--eduact-text: #444444;
 	--eduact-text-rgb: 105, 117, 133;
 	--eduact-text2: #B3ADE1;
@@ -309,7 +288,7 @@ a {
 
 /* home seond section css starting here */
 body {
-	font-family: var(--eduact-font);
+
 	color: var(--eduact-text);
 	font-size: 15px;
 	line-height: 25px;
@@ -324,7 +303,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--heading-font);
+	
 	color: var(--eduact-black);
 	font-weight: 500;
 }
@@ -360,14 +339,14 @@ h6 {
 	color: #000000;
 	font-size: 20px;
 	margin: 0 0 10px;
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
+	
 }
 
 .wrapper-blogs-details-content span {
 	font-weight: 600 !important;
 	line-height: 22px !important;
 	letter-spacing: 0.32px !important;
-	font-family: 'Open Sans', sans-serif !important;
+	
 	color: #000 !important;
 	font-size: 15px !important;
 }
@@ -376,7 +355,7 @@ h6 {
 	font-weight: 500;
 	font-size: 16px;
 	color: #ac0c30;
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
+
 }
 
 .btn-hover {
@@ -411,9 +390,7 @@ h6 {
 	background-color: #ac0c30;
 }
 
-h4 {
-	font-family: var(--eduact-font)
-}
+
 
 .DiscoverMore-Abouts {
 	width: 180px;
@@ -745,7 +722,6 @@ nav.bg-body-tertiary.bg-white.navbar.navbar-expand-lg.navbar-light {
 
 .RightWapperAboutUS h4 {
 	color: #ac0c30;
-	font-family: rubik !important;
 	font-weight: 500;
 	letter-spacing: 2px;
 	font-size: 20px;
@@ -754,7 +730,6 @@ nav.bg-body-tertiary.bg-white.navbar.navbar-expand-lg.navbar-light {
 
 .RightWapperAboutUS h2 {
 	color: #000;
-	font-family: var(--eduact-font) !important;
 	font-weight: 500;
 	letter-spacing: 2px;
 	font-size: 20px;
@@ -955,13 +930,11 @@ footer {
 
 .Footer-section ul h5 {
 	font-size: 16px;
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 
 }
 
 .Footer-section ul span {
 	font-size: 14px;
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 
 }
 
@@ -1886,7 +1859,6 @@ section.courses-review-wrapper {
 	color: #ac0c30;
 	font-size: 28px !important;
 	margin: 0 0 32px;
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 	font-weight: 400;
 }
 
@@ -2390,7 +2362,7 @@ thead tr.table-danger {
 	height: 211px;
 	width: 100%;
 	background-color: var(--eduact-soft5);
-	font-family: var(--eduact-font);
+
 	padding: 24px 30px 30px;
 	border: none;
 	outline: none;
@@ -2491,7 +2463,6 @@ thead tr.table-danger {
 }
 
 .course-details__sidebar__title {
-	/* font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679'; */
 	color: #fff;
 	background-color: #004f76;
 	padding: 10px;
@@ -2525,7 +2496,6 @@ p.course-details__overview__text {
 	font-weight: 400;
 	font-size: 28px;
 	color: #ac0c30;
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 }
 
 .course-details__sidebar__lists li {
@@ -4749,7 +4719,6 @@ background-size: contain;
 }
 
 .course-two__title a {
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 	color: #004f76;
 	font-size: 20px;
 	background-image: linear-gradient(currentcolor, currentcolor), linear-gradient(currentcolor, currentcolor);
@@ -5117,7 +5086,6 @@ strong {
 .course-details__curriculum__title {
 	font-size: 20px !important;
 	color: #000000 !important;
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 }
 
 .course-details__meta {
@@ -5581,7 +5549,6 @@ strong {
 	height: 211px;
 	width: 100%;
 	background-color: var(--eduact-soft5);
-	font-family: var(--eduact-font);
 	padding: 24px 30px 30px;
 	border: none;
 	outline: none;
@@ -5805,17 +5772,12 @@ a {
 	overflow: hidden;
 	z-index: 2;
 	height: 250px;
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 	border: 1px solid #004f76;
 	border-radius: 20px;
 
 
 }
 
-.contact-info__text a {
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
-
-}
 
 @media (min-width:200px) and (max-width:568px) {
 
@@ -6082,7 +6044,6 @@ a {
 
 .wrapper-company-logos-sslider .slick-prev:before,
 .wrapper-company-logos-sslider .slick-next:before {
-	font-family: 'slick';
 	font-size: 20px;
 	line-height: 1;
 	opacity: .75;
@@ -6097,7 +6058,6 @@ a {
 
 .sidebar__post__content__title a {
 	color: #000000;
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 	font-weight: 500;
 
 
@@ -6278,7 +6238,6 @@ a {
 
 .dropdown-menu a {
 	font-size: 14px;
-	font-family: '__Roboto_10f679', '__Roboto_Fallback_10f679';
 }
 
 .dropdown-menu a:hover {
@@ -6308,7 +6267,6 @@ a {
 	letter-spacing: 0;
 	font-size: 16px;
 	text-transform: capitalize;
-	font-family: var(--eduact-font);
 }
 
 .course-bg {
@@ -6406,7 +6364,6 @@ a {
 }
 
 .courses-card-box p {
-	font-family: var(--eduact-font);
 	font-weight: normal;
 }
 
@@ -6423,7 +6380,6 @@ a {
 
 .wrapper-company-logos-sslider .slick-prev:before,
 .wrapper-company-logos-sslider .slick-next:before {
-	font-family: 'slick';
 	font-size: 20px;
 	line-height: 1;
 	opacity: .75;
@@ -6980,7 +6936,6 @@ a.btn-hover.bg-white.text-primary.Sechdule-afree-call {
 
 .placement-review-wrapper .slick-prev:before,
 .slick-next:before {
-	font-family: 'slick';
 	font-size: 30px;
 	line-height: 1;
 	opacity: .75;

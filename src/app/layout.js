@@ -13,7 +13,7 @@ import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] }); 
 const urbanist = Urbanist({ subsets: ["latin"] }); 
-const roboto = Roboto({weight: '400', subsets: ["latin"] }); 
+// const roboto = Roboto({weight: '400', subsets: ["latin"] }); 
 
 export const metadata = {
   title: "Join The Best International Language Institute for Foreign Languages course | Oracle Global Education",
@@ -24,7 +24,8 @@ export const metadata = {
 export default function RootLayout({ children }) {  
   return (
     <html lang="en">  
-      <body className={roboto.className}>{children}</body>
+      {/* <body className={roboto.className}>{children}</body> */}
+      <body>{children}</body>
     </html>
   );
 }

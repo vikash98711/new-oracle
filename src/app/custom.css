@@ -44,21 +44,19 @@
 
 
 body{
-    font-family: var( --eduact-font) !important;
+
     letter-spacing: 1.3px !important;
 }
 a{
     text-decoration: none !important;
-      font-family:var(--eduact-font);
+  
    
 }
 
-h5{
-    font-family: var(--eduact-font);
-}
+
 h2{
     font-size: 40px;
-    font-family: var(--eduact-font);
+    
 
 }
 @media (max-width: 767px){
@@ -622,7 +620,7 @@ background-color: #000000;
 
 .course-drop-wrap  a.Common-menu-items{
     color: #fff !important;
-    font-family: var(--eduact-font);
+    
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 15px;
