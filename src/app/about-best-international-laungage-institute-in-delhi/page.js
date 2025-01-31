@@ -51,10 +51,6 @@ const Page = () => {
                      The Oracle International Language Institute brings together under one roof a wide range of international professional and vocational qualifications through its high tech, state of the art teaching centers, strategically located across the country. It offers interesting and innovative programmes blended with industrial experience and practical application that will appeal to the academic community as well as to a range of other sectors in the market place.
                   </p>
                   <div className="group">
-                     {/* 
-                     <h4 className='text-primary'>Our Vision</h4>
-                     <p> It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks The generated Lorem Ipsum is therefore always free from repetition </p>
-                     */}
                      <h4 className='text-primary'><b>Our Mission</b></h4>
                      <hr>
                      </hr>
