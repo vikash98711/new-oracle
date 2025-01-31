@@ -101,11 +101,11 @@ export default function Home() {
   return (
     <>
       <main className="entire-page-wrapper" style={{ width: "100%", height: "100%" }}>
-        
+        <div data-aos="fade-left">
           <Navigation />
-        
+        </div>
 
-        <div data-aos="fade-up">
+        <div data-aos="fade-right">
           <LearningJourney />
         </div>
 
