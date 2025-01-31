@@ -371,6 +371,10 @@ h6 {
 	border: 1px solid #ac0c30;
 }
 
+.course-drop-wrap .dropdown-bg{
+	z-index: 5555;
+}
+
 .btn-hover:hover {
 	border: 1px solid #ac0c30;
 	color: #ac0c30;
@@ -2793,27 +2797,27 @@ background-size: contain;
 }
 
 .btn-theme {
-	background: #ac0c30;
-	color: #fff;
-	padding: 10px 20px;
+	background: #ac0c30 !important;
+	color: #fff !important;
+	padding: 10px 20px !important;
 }
 
 .btn-theme:hover {
-	background: #004f76;
-	color: #fff;
-	padding: 10px 20px;
+	background: #004f76 !important;
+	color: #fff !important;
+	padding: 10px 20px!important;
 }
 
 .btn-theme2 {
-	background: #004f76;
-	color: #fff;
-	padding: 10px 20px;
+	background: #004f76!important;
+	color: #fff!important;
+	padding: 10px 20px!important;
 }
 
 .btn-theme2:hover {
-	background: #ac0c30;
-	color: #fff;
-	padding: 10px 20px;
+	background: #ac0c30!important;
+	color: #fff!important;
+	padding: 10px 20px!important;
 }
 
 .EnquiryForm-underline {
