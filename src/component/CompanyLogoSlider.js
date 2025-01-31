@@ -6,7 +6,7 @@ import Slider from 'react-slick';
 const CompanyLogoSlider = () => {
   const settings = {
     dots: false,
-    autoplay: false,
+    autoplay: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 5,
