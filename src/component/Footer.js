@@ -101,6 +101,7 @@ const Footer = () => {
                             Contact Us
                           </Link>
                         </li>
+                       
 
                     
 
@@ -157,7 +158,10 @@ const Footer = () => {
                   <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-11-450-41-999</li>
                   <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-9999-745-645</li>
 
+                  <li className="mt-3">
 
+<img style={{width:'120px'}} src="/assets/img/googlerealreview.png" alt="Google review" className="google-review-image-footer"/>
+</li>
                 </ul>
    
 
