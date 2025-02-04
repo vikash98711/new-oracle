@@ -7320,7 +7320,22 @@ h5.mb-0.text-white.placement-slider-tag.company-place-ment-text {
 	}
 }
 
-
+button.custom-arrow.next-arrow {
+	position: absolute;
+    padding: 11px 15px;
+    border-radius: 50%;
+    z-index: 5;
+    top: 50%;
+    right: 0;
+}
+button.custom-arrow.prev-arrow {
+	position: absolute;
+    padding: 11px 15px;
+    border-radius: 50%;
+    left: -10px;
+    z-index: 5;
+    top: 50%;
+}
 @media (min-width:569px) and (max-width:990px) {
 	.nav-link.my-2.my-lg-0.d-flex.gap-xl-5.gap-lg-4.navbar-nav {
 		background-color: #ac0c30 !important;
