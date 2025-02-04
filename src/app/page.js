@@ -87,6 +87,8 @@ import QuiryForm from "@/component/QuiryForm";
 import CompanyLogoSlider from "@/component/CompanyLogoSlider";
 import Faq from "@/component/Faq";
 import PlaceMentReview from "@/component/PlaceMentReview";
+import Companyplacement from "@/component/Companyplacement";
+import GoogleReview from "@/component/GoogleReview";
 
 export default function Home() {
   useEffect(() => {
@@ -117,6 +119,9 @@ export default function Home() {
         <div data-aos="zoom-in">
           <PlaceMentReview />
         </div>
+        {/* <div data-aos="zoom-in">
+        </div> */}
+          <Companyplacement />
 
         <div data-aos="flip-left">
           <OurService />
@@ -133,10 +138,10 @@ export default function Home() {
         <div data-aos="fade-left">
           <BlogVideoNotice />
         </div>
-
         <div data-aos="fade-right">
           <Blog />
         </div>
+        <GoogleReview/>
 
         <div data-aos="zoom-in">
           <QuiryForm />

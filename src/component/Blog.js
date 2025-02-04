@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Slider from "react-slick";
+import FactSection from './FactSection';
 const settings = {
     dots: false,
     autoplay: true,
@@ -100,7 +101,7 @@ const Blog = () => {
                 </div>
             </div>
 
-            <div className="fact-one pt-pb">
+            {/* <div className="fact-one pt-pb">
   <div className="container">
     <div className="row">
       <div className="col-lg-3 col-md-6 col-sm-12 p-0">
@@ -175,7 +176,8 @@ const Blog = () => {
       </div>
     </div>
   </div>
-</div>
+</div> */}
+<FactSection/>
         </section>
     );
 }

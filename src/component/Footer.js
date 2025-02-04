@@ -138,7 +138,9 @@ const Footer = () => {
 
 
                   <li className="text-white mb-0"><i className="fa-solid fa-location-dot"></i> <span className="Secondary-orange-footer border-bottom fw-bold">Kingsway Camp:</span><br></br>109 Mall Road, Kingsway Camp, GTB Nagar, (Near GTB Nagar Metro Station Gate No.-1) Delhi - 110009, India</li>
-
+                  <p className="text-white">
+                      <i className="fa-solid fa-envelope"></i>&nbsp;Inquiry@oracleglobaleducation.com
+                    </p>
 
                 </ul>
               </div>

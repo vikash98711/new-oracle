@@ -319,8 +319,8 @@ export const CourseData = [
     },
     {
         id:1,
-        name: "Spanish speaking",
-        title: 'Spanish Speaking Courses',
+        name: "English speaking",
+        title: 'English Speaking Courses',
         slug: 'best-english-speaking-course-in-delhi',
         duration: '3 Months - 9 Month',
         timing: '8:30 AM - 6:30 PM',

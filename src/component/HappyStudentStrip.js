@@ -10,11 +10,13 @@ const HappyStudentStrip = () => {
    
     <h2 className='text-white book-your-sheet-strip'>Book Your Seat For Free Career Counselling!
     We'll make you understand the procedures. </h2>
-    <a className='btn-hover bg-white text-primary Sechdule-afree-call' href='#'>Schedule a FREE Call</a>
+    {/* <a className='btn-hover bg-white text-primary Sechdule-afree-call' href='#'>Schedule a FREE Call</a> */}
     </div>
-    <div className=" col-sm-12 col-lg-4 col-md-12  mt-2 schedule-second-box-image"> 
+    {/* <div className=" col-sm-12 col-lg-4 col-md-12  mt-2 schedule-second-box-image">  */}
+    <div className=" col-sm-12 col-lg-4 col-md-12  mt-2 pt-pb first-box-schedule"> 
+    <a className='btn-hover bg-white text-primary Sechdule-afree-call' href='#'>Schedule a FREE Call</a>
   
-     <img src="https://www.pngkit.com/png/full/362-3629046_corporate-office-girl-call-centre-png.png" className='img-fluid' style={{width:"200px"}}></img>
+     {/* <img src="https://www.pngkit.com/png/full/362-3629046_corporate-office-girl-call-centre-png.png" className='img-fluid' style={{width:"200px"}}></img> */}
     </div> 
     </div>
     </div>

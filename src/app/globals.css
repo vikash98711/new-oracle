@@ -6302,6 +6302,7 @@ a {
 	border-radius: 10px;
 	border: 1px dashed #ac0c30;
 	overflow: hidden;
+	margin: 10px 0px;
 }
 
 .courses-card-wrapper .courses-card-box::before {
@@ -6741,7 +6742,7 @@ nav.navbar {
 
 section.schedule-sec {
     background-color: #ac0c30;
-    padding: 20px;
+    padding: 10px;
 }
 
 .hero {
@@ -6995,6 +6996,25 @@ span.placement-ratio {
 	border: 1px solid white;
 }
 
+h5.mb-0.text-white.placement-slider-tag.company-place-ment-text {
+    font-size: 24px !important;
+}
+
+
+.google-review  .card img{
+	border: none !important;
+    padding: 3px;
+    box-shadow: none !important;
+
+    /* border-radius: 15px 5px 15px 5px !important; */
+}
+
+.google-review  .card  .google-users-image{
+    border-radius: 50% !important;
+    box-shadow: 0px 5px 9px #ddd;
+
+
+}
 @media (min-width:200px) and (max-width:568px) {
 	.sidebar-social-icon {
 		display: none;
@@ -7021,6 +7041,9 @@ span.placement-ratio {
 
 	h2 {
 		font-size: 16px !important;
+	}
+	h5.mb-0.text-white.placement-slider-tag.company-place-ment-text {
+		font-size: 14px !important;
 	}
 
 	.main-title .sec-title {
@@ -7284,6 +7307,14 @@ span.placement-ratio {
 		height: 253px;
 	}
 
+	.company-placement-thumnail{
+		width: 100% !important;
+		height: 169px !important;
+	}
+	.section-company-placement-main{
+		margin-top: 30px;
+	}
+
 }
 
 
@@ -7323,3 +7354,6 @@ span.placement-ratio {
 
 	}
 }
+
+
+  
