@@ -122,7 +122,7 @@ const Companyplacement = () => {
         <section className='pt-pb bg-grey mt-8 bg-white section-company-placement-main'>
             <div className="container-fluid">
                 <div className="main-title text-center mb-0">
-                    <h5 className="mb-0 text-white placement-slider-tag company-place-ment-text">Companies Where Our Students Got Placements|</h5>
+                    <h5 className="mb-0 text-white placement-slider-tag company-place-ment-text" style={{backgroundColor:'#004f76'}}>Companies Where Our Students Got Placements|</h5>
                     {/* <h2 className='sec-title  placement-ratio-wrapper'>Placement Ratio 98.99%</h2> */}
                     <br></br>
                 </div>

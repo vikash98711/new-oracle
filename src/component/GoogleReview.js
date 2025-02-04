@@ -90,7 +90,7 @@ const GoogleReview = () => {
               <Slider {...settings}>
                 {Feedback.map((val, i) => (
                   <div className="feedback google-review" key={i}>
-                    <div className="card m-3">
+                    <div className="card m-3" style={{backgroundColor:'#004f76'}}>
                       <div className="card-body mb-2">
                         <div className="col-sm-12 text-start d-flex justify-content-between align-items-center">
                           <img src={val.image} className="rounded-circle img-fluid mb-2 google-users-image" />
@@ -100,7 +100,7 @@ const GoogleReview = () => {
                         <div className="col-sm-12">
                           <div className="ms-3">
                           {/* <p className="designation">|| {val.occupation} <span className="text-capitalize">{val.subject} ||</span></p> */}
-                          <h5 className="text-uppercase">{val.name}</h5> 
+                          <h5 className="text-uppercase text-white">{val.name}</h5> 
 
                           <div className='d-flex align-items-center mb-3 gap-2'>
                             <div className='d-flex '>
@@ -112,7 +112,7 @@ const GoogleReview = () => {
                             </div>
                             
                           </div>
-                      <p><i className="fa-regular fa-comment-dots"></i> {val.comment}</p>
+                      <p className="text-white"><i className="fa-regular fa-comment-dots"></i> {val.comment}</p>
 
                       </div>
                         </div>
