@@ -162,7 +162,7 @@ const Footer = () => {
    
 
 
-<div className="float-sm hidden-xs sidebar-social-icon">
+{/* <div className="float-sm hidden-xs sidebar-social-icon">
    <div className="fl-fl float-fb">
       <a href="https://www.facebook.com/oracleinternationallanguageInstitute/" target="_blank"> Facebook</a>
       <i className="fa-brands fa fa-facebook-f"></i>
@@ -183,11 +183,9 @@ const Footer = () => {
       <i className="fa-brands fa fa-youtube"></i>
       <a href="https://www.youtube.com/channel/UC31D8Zz8hOMbJLdZOVpGW9Q" target="_blank">You Tube</a>
    </div>
-</div>
+</div> */}
 
-<a href='https://api.whatsapp.com/send?phone=917503532682&text=Hello%20Dear%20Sir/Mam%20I%20Am%20Interested%20in'  target="_blank" className="btn-whatsapp-pulse btn-whatsapp-pulse-border">
-	<i className="fab fa-whatsapp"></i>
-</a>
+
 {/* <a href='https://app.zoom.us/wc/join'  target="_blank" className="btn-zoom-pulse btn-zoom-pulse-border">
 	<i className="fa-brand fa fa-video"></i>
 </a> */}

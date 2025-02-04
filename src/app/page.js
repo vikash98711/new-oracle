@@ -162,6 +162,9 @@ export default function Home() {
         <div data-aos="fade-up">
           <Footer />
         </div>
+        <a href='https://api.whatsapp.com/send?phone=917503532682&text=Hello%20Dear%20Sir/Mam%20I%20Am%20Interested%20in'  target="_blank" className="btn-whatsapp-pulse btn-whatsapp-pulse-border">
+	<i className="fab fa-whatsapp"></i>
+</a>
       </main>
     </>
   );
