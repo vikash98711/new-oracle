@@ -7020,7 +7020,17 @@ h5.mb-0.text-white.placement-slider-tag.company-place-ment-text {
 		display: none;
 	}
 	
+	.course-details__sidebar__lists li {
+		
+		font-size: 13px;
+	}
 
+	.course-details__sidebar__title {
+		font-size: 13px;
+	}
+	.course-details__sidebar .eduact-btn {
+		font-size: 13px;
+	}
 	.main-title .sec-title {
 		font-size: 19px;
 		margin-bottom: 20px;
@@ -7310,7 +7320,7 @@ h5.mb-0.text-white.placement-slider-tag.company-place-ment-text {
 
 	.company-placement-thumnail{
 		width: 100% !important;
-		height: 169px !important;
+		height: 121px !important;
 	}
 	.section-company-placement-main{
 		margin-top: 30px;
