@@ -71,7 +71,7 @@ const GoogleReview = () => {
       <div className="container">
       <div className="main-title text-center mb-0">
           <h5 className="mb-0">Excellent</h5>
-          <h2 className='sec-title'>Based on 1100 + reviews</h2>
+          <h2 className='sec-title'>Based on 1100+ reviews</h2>
           <div className='d-flex align-items-center justify-content-center mb-3 gap-2'>
                             <div className='d-flex '>
                               <i className="fa-solid rating-color fa-star"></i>
