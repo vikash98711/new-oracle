@@ -295,13 +295,18 @@ const CourseDetails = ({ params }) => {
         </div>
       </section>
       <CourseReview />
-      <CompanyLogoSlider />
+      <div className='pt-pb'>
       <CareerCounsellingStrip/>
 
+      </div>
+      <CompanyLogoSlider />
+      
 
-      <FactSection/>
 
+<div className='pt-pb'>
 
+<FactSection/>
+</div>
 <PlaceMentReview/>
 
       <Footer />
