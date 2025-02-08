@@ -117,9 +117,9 @@ export default function Home() {
           <Courses />
         </div>
 
-        <div data-aos="zoom-in">
+        {/* <div data-aos="zoom-in"> */}
           <PlaceMentReview />
-        </div>
+        {/* </div> */}
         {/* <div data-aos="zoom-in">
         </div> */}
           <Companyplacement />
