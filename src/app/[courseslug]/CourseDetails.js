@@ -93,7 +93,7 @@ const CourseDetails = ({ params }) => {
                       <div className="course-details__overview">
                         <div dangerouslySetInnerHTML={{ __html: courseValue?.description }} className='mb-5' />
 
-                        {pathname === '/best-hindi-laungage-institute-in-delhi' ?
+                        {pathname === '/best-hindi-language-institute-in-delhi' ?
                           <Accordion defaultActiveKey="0">
                             <Accordion.Item eventKey="0">
                               <Accordion.Header className='text-uppercase'>1. Beginner Level</Accordion.Header>

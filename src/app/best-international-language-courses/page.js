@@ -15,7 +15,7 @@ export  function generateMetadata(){
       description: "As the demand for language proficiency continues to grow this institute plays a pivotal role. The Oracle International Language Institute brings together under one roof a wide range of international professional and vocational qualifications.",
       keywords: ['best international language institute in dlehi', 'best foreign language institute in delhi', 'best leading language institute in dlehi', 'best language teaching institute in delhi', 'study with best global language institute oracle'],
       alternates: {
-        canonical: `https://oracleglobaleducation.com/best-international-laungage-courses`,
+        canonical: `https://oracleglobaleducation.com/best-international-language-courses`,
       },  
   }
 }

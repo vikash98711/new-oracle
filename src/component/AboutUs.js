@@ -26,7 +26,7 @@ const AboutUs = () => {
              <div className="group mt-5">
            
              <Link href="#" className="btn btn-theme"  onClick={handleEnrollClick} >Enquire Now</Link>
-              <Link href="/about-best-international-laungage-institute-in-delhi" className="btn btn-theme2 ml-3">Read More </Link>
+              <Link href="/about-best-international-language-institute-in-delhi" className="btn btn-theme2 ml-3">Read More </Link>
              </div>
            </div>
            <div className="col-12 col-md-4 col-lg-6">

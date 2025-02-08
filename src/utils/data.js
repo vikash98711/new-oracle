@@ -415,7 +415,7 @@ export const CourseData = [
         id:6,
         name: "arabic",
         title: 'Arabic Language Course',
-        slug: 'best-arabic-laungage-institute-in-delhi',
+        slug: 'best-arabic-language-institute-in-delhi',
         duration: '3 Months - 18 Months',
         timing: '8:30 AM - 6:30 PM',
         batchSize: '8-10 ',
@@ -539,7 +539,7 @@ export const CourseData = [
         id:7,
         name: "chinese",
         title: 'Chinese Language Course',
-        slug: 'best-chinese-laungage-institute-in-delhi',
+        slug: 'best-chinese-language-institute-in-delhi',
         duration: '3 Months - 12 Months',
         timing: '8:30 AM - 6:30 PM',
         batchSize: '7-10 ',
@@ -604,7 +604,7 @@ export const CourseData = [
         id:8,
         name: "japanese",
         title: 'Japanese Language Course',
-        slug: 'best-japanese-laungage-institute-in-delhi',
+        slug: 'best-japanese-language-institute-in-delhi',
         duration: '3 Months - 21 Months',
         timing: '8:30 AM - 6:30 PM',
         batchSize: '7-10 ',
@@ -792,7 +792,7 @@ export const CourseData = [
         id:11,
         name: "hindi",
         title: 'Hindi Language Course',
-        slug: 'best-hindi-laungage-institute-in-delhi',
+        slug: 'best-hindi-language-institute-in-delhi',
         duration: '3 Months - 18 Months',
         timing: '8:30 AM - 6:30 PM',
         batchSize: '7-10 ',
@@ -906,7 +906,7 @@ export const CourseData = [
         id:15,
         name: "korean",
         title: 'Korean Language Course',
-        slug: 'best-korean-laungage-cource-institute-in-delhi',
+        slug: 'best-korean-language-course-institute-in-delhii',
         duration: '3 Months - 18 Months',
         timing: '8:30 AM - 6:30 PM',
         batchSize: '7-10 ',
@@ -1028,7 +1028,8 @@ export const CourseData = [
         id:14,
         name: "study in abroad",
         title: 'Study In Abroad',
-        slug: 'best-counsiling-for-study-in-abroad-in-delhi',
+        // slug: 'best-counsiling-for-study-in-abroad-in-delhi',
+        slug: 'best-counselling-for-study-in-abroad-in-delhi',
         duration: '3 Months - 18 Months',
         timing: '8:30 AM - 6:30 PM',
         batchSize: '7-10 ',
@@ -1470,7 +1471,7 @@ export const CourseData = [
 //         id:6,
 //         name: "arabic",
 //         title: 'Arabic Language Course',
-//         slug: 'best-arabic-laungage-institute-in-delhi',
+//         slug: 'best-arabic-language-institute-in-delhi',
 //         duration: '3 Months - 18 Months',
 //         timing: '8:30 AM - 6:30 PM',
 //         batchSize: '8-10 ',
@@ -1594,7 +1595,7 @@ export const CourseData = [
 //         id:7,
 //         name: "chinese",
 //         title: 'Chinese Language Course',
-//         slug: 'best-chinese-laungage-institute-in-delhi',
+//         slug: 'best-chinese-language-institute-in-delhi',
 //         duration: '3 Months - 12 Months',
 //         timing: '8:30 AM - 6:30 PM',
 //         batchSize: '7-10 ',
@@ -1659,7 +1660,7 @@ export const CourseData = [
 //         id:8,
 //         name: "japanese",
 //         title: 'Japanese Language Course',
-//         slug: 'best-japanese-laungage-institute-in-delhi',
+//         slug: 'best-japanese-language-institute-in-delhi',
 //         duration: '3 Months - 21 Months',
 //         timing: '8:30 AM - 6:30 PM',
 //         batchSize: '7-10 ',
@@ -1847,7 +1848,7 @@ export const CourseData = [
 //         id:11,
 //         name: "hindi",
 //         title: 'Hindi Language Course',
-//         slug: 'best-hindi-laungage-institute-in-delhi',
+//         slug: 'best-hindi-language-institute-in-delhi',
 //         duration: '3 Months - 18 Months',
 //         timing: '8:30 AM - 6:30 PM',
 //         batchSize: '7-10 ',
@@ -1961,7 +1962,7 @@ export const CourseData = [
 //         id:15,
 //         name: "korean",
 //         title: 'Korean Language Course',
-//         slug: 'best-korean-laungage-cource-institute-in-delhi',
+//         slug: 'best-korean-language-course-institute-in-delhii',
 //         duration: '3 Months - 18 Months',
 //         timing: '8:30 AM - 6:30 PM',
 //         batchSize: '7-10 ',
@@ -2115,11 +2116,11 @@ export const MetaDetails = [
         canonical:'https://oracleglobaleducation.com/best-ielts-coaching-institute-in-delhi'
     },
     {
-        link: 'best-chinese-laungage-institute-in-delhi',
+        link: 'best-chinese-language-institute-in-delhi',
         title: 'Join The Best Chinese Language Institute in Delhi for Chinese Language Course',
         description: 'It is the best institute to learn the Chinese language course. The Oracle International Language Institute provides a platform to excel in all languages like Chinese, English, German, French, Spanish, and Arabic. It is the best institute for international language courses. This institute builds confidence in students to communicate globally.',
         keywords: ['best language institute in Delhi for chinese language', 'oracle education provide a platform to excel your language', 'become excel in english, german, french, Spanish &arabic with oracle education', 'built your confidence in students to communicate globally', 'best institute to excel your any language.'], 
-        canonical:'https://oracleglobaleducation.com/best-chinese-laungage-institute-in-delhi'
+        canonical:'https://oracleglobaleducation.com/best-chinese-language-institute-in-delhi'
     },
     // {
     //     link: 'best-career-counseling-in-delhi',
@@ -2129,11 +2130,11 @@ export const MetaDetails = [
     //     canonical:'https://oracleglobaleducation.com/best-career-counseling-in-delhi'
     // }, 
     {
-        link: 'best-arabic-laungage-institute-in-delhi',
+        link: 'best-arabic-language-institute-in-delhi',
         title: 'Join The Best Arabic Language Institute in Delhi For The Best Arabic Language Course.',
         description: 'Best institute to learn Arabic language institute Oracle International Language Institute in Delhi is the best language institute that teaches multiple languages including Arabic. This is the best language learning course in Delhi to build your career.',
         keywords: ["best institute to learn Arabic language oracle laungage,best language Institute for multiple language courses by oracle education, oracle institute is the best language learning institute in Delhi, build your career in language learning with oracle institute, top Institute to learn Arabic in delhi."], 
-        canonical:'https://oracleglobaleducation.com/best-arabic-laungage-institute-in-delhi'
+        canonical:'https://oracleglobaleducation.com/best-arabic-language-institute-in-delhi'
     }, 
     {
         link: 'best-french-language-institute-in-delhi',
@@ -2150,11 +2151,11 @@ export const MetaDetails = [
         canonical:'https://oracleglobaleducation.com/best-german-language-institute-in-delhi'
     }, 
     {
-        link: 'best-hindi-laungage-institute-in-delhi',
+        link: 'best-hindi-language-institute-in-delhi',
         title: 'Best Hindi classes in Delhi  Join for the best Hindi course at Oracle International Language Institute',
         description: 'The best Hindi learning course in Delhi is Oracle International Language Institute. Oracle provides offline as well as online classes for all languages. Anyone can learn at their doorstep with qualified teachers and experienced faculty.',
         keywords: 'best language institute to learn any language, best foreign language institute in delhi ,study with leading language institute in delhi, best language teaching institute in delhi, oracle global language institute in delhi ', 
-        canonical:'https://oracleglobaleducation.com/best-hindi-laungage-institute-in-delhi'
+        canonical:'https://oracleglobaleducation.com/best-hindi-language-institute-in-delhi'
     }, 
     
     {
@@ -2172,18 +2173,18 @@ export const MetaDetails = [
         canonical:'https://oracleglobaleducation.com/best-spanish-language-institute-in-delhi"'
     }, 
     {
-        link: "best-japanese-laungage-institute-in-delhi",
+        link: "best-japanese-language-institute-in-delhi",
         title: "Best Japanese Language Institute in Delhi For The Best Japanese Language Course",
         description: "Join the best Japanese language course institute. This is the best international language institute that provides all language courses to learn and excel. The best Japanese coaching course is taught here. Top institute for all international languages.",
         keywords: "best Japanese language cource institute in delhi, best international language institute in delhi, best Japanese courses taught here in oracle education, top institute for all international language in delhi, excel your Japanese language with oracle language.", 
-        canonical:'https://oracleglobaleducation.com/best-japanese-laungage-institute-in-delhi'
+        canonical:'https://oracleglobaleducation.com/best-japanese-language-institute-in-delhi'
     }, 
     {
-        link: "best-korean-laungage-cource-institute-in-delhi",
+        link: "best-korean-language-course-institute-in-delhii",
         title: "Join The Best Korean Language Institute in Delhi For The Best Korean Language Course.",
         description: "Join us to learn the Korean language at Oracle International Language Institute in Delhi to enhance your language and career skills. This institute caters to the best faculty team to teach Korean Japanese Chinese German French etc languages.",
         keywords: "best Korean language institute in Delhi ,enhance your laungage and career skill with oracle education, study with best faculty team with oracle language institute in Delhi, learn Korean, Japanese  German language with oracle education.", 
-        canonical:'https://oracleglobaleducation.com/best-korean-laungage-cource-institute-in-delhi'
+        canonical:'https://oracleglobaleducation.com/best-korean-language-course-institute-in-delhii'
     }, 
     {
         link: "best-russian-laungage-institute-in-delhi",
@@ -2200,18 +2201,18 @@ export const MetaDetails = [
     //     canonical:'https://oracleglobaleducation.com/best-employbility-institute-in-delhi'
     // }, 
     {
-        link: "best-counsiling-for-study-in-abroad-in-delhi",
+        link: "best-counselling-for-study-in-abroad-in-delhi",
         title: "Join Oracle International Language Institute in Delhi to study abroad Best training institute for IELTS, GERMAN, FRENCH, SPANISH, CHINESE, and ARABIC.",
         description: "Oracle Institute facilitates studying abroad by providing international language proficiency courses, essential communication skills, and enhancing student's performance for academic success internationally",
         keywords: "best language institute to learn any language, best foreign language institute in delhi, study with leading language institute in delhi, best laungage teaching institute in delhi, oracle global language institute in delhi ", 
-        canonical:'https://oracleglobaleducation.com/best-counsiling-for-study-in-abroad-in-delhi'
+        canonical:'https://oracleglobaleducation.com/best-counselling-for-study-in-abroad-in-delhi'
     }, 
     // {
-    //     link: "best-international-laungage-courses",
+    //     link: "best-international-language-courses",
     //     title:"Enroll For The Best International Language Institute in Delhi for The Best International Language Course",
     //     description:"As the demand for language proficiency continues to grow this institute plays a pivotal role. The Oracle International Language Institute brings together under one roof a wide range of international professional and vocational qualifications.",
     //     keywords:"best international language institute in dlehi, best foreign language institute in delhi, best leading language institute in dlehi, best language teaching institute in delhi, study with best global language institute oracle", 
-    //     canonical:"https://oracleglobaleducation.com/best-international-laungage-courses"
+    //     canonical:"https://oracleglobaleducation.com/best-international-language-courses"
     // }, 
     {
         link: "best-english-speaking-course-in-delhi",

@@ -18,7 +18,7 @@ const Courses = () => {
             <h2 className='sec-title'>Highlighted Programs in Language Courses </h2>
             </div>
             <div className="mb-0 "> 
-                <Link href="/best-international-laungage-courses" className=' border-0 text-white btn-hover color-2 color22 d-flex align-items-center gap-2 courses-view-all'>View All
+                <Link href="/best-international-language-courses" className=' border-0 text-white btn-hover color-2 color22 d-flex align-items-center gap-2 courses-view-all'>View All
                 <img src="/assets/img/viewAll.gif" alt="view" width={28} />
                  </Link> 
             </div> 

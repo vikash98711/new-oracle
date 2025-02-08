@@ -18,7 +18,7 @@ export function generateMetadata(params) {
     description: "Oracle International Language Institute teaches a wide range of language courses for global communication. It is the best international language institute in Delhi for a beginner or an advanced learner. This institute formats its programs to suit various proficiency levels. ",
     keywords: ['best language institute to learn any language', 'best foreign language institute in delhi', 'study with leading language institute in delhi', 'best language teaching institute in delhi', 'oracle global language institute in delhi'],
     alternates: {
-      canonical: `https://oracleglobaleducation.com/about-best-international-laungage-institute-in-delhi`,
+      canonical: `https://oracleglobaleducation.com/about-best-international-language-institute-in-delhi`,
     },
   }
 }

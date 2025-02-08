@@ -18,7 +18,7 @@ const Navigation = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   const navigateFunc = () => {
-    router.push('/best-international-laungage-courses');
+    router.push('/best-international-language-courses');
   };
   const handleEnrollClick = () => {
     setShowModal(true);
@@ -69,7 +69,7 @@ const Navigation = () => {
           <Navbar.Collapse id='basic-navbar-nav' className={`Header-small-scrren d-lg-flex justify-content-end ${isNavExpanded ? 'show' : ''}`}>
             <Nav className='nav-link my-2 my-lg-0 d-flex gap-xl-5 gap-lg-4'>
               <Link href='/'>Home</Link>
-              <Link href='/best-international-laungage-courses' className='position-relative course-drop-btn'>
+              <Link href='/best-international-language-courses' className='position-relative course-drop-btn'>
                 Course<i className='fa-solid fa-angle-down text-secondary'></i>
                 <div className='d-block course-drop-wrap'>
                   <div className='rounded-4 dropdown-bg p-3'>
@@ -123,7 +123,7 @@ const Navigation = () => {
           <Navbar.Collapse id='basic-navbar-nav' className={`Header-small-scrren d-lg-flex justify-content-end ${isNavExpanded ? 'show' : ''}`}>
             <Nav className='nav-link my-2 my-lg-0 d-flex gap-xl-5 gap-lg-4'>
               <Link href='/'>Home</Link>
-              {/* <Link href='/best-international-laungage-courses' className='position-relative course-drop-btn'>
+              {/* <Link href='/best-international-language-courses' className='position-relative course-drop-btn'>
                 Course<i className='fa-solid fa-angle-down text-secondary'></i>
                 <div className='d-block course-drop-wrap'>
                   <div className='rounded-4 dropdown-bg p-3'>

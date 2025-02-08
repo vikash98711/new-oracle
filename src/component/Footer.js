@@ -54,7 +54,7 @@ const Footer = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link className="text-white" href="/about-best-international-laungage-institute-in-delhi">
+                          <Link className="text-white" href="/about-best-international-language-institute-in-delhi">
                             <i className="fa-solid fa-hand-point-right"></i>&nbsp;
                             About
                           </Link>
@@ -72,7 +72,7 @@ const Footer = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link className="text-white" href="/best-international-laungage-service">
+                          <Link className="text-white" href="/best-international-language-service">
                             <i className="fa-solid fa-hand-point-right"></i>&nbsp;
                             Service
                           </Link>
