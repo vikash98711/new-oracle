@@ -294,6 +294,10 @@ const CourseDetails = ({ params }) => {
           </div>
         </div>
       </section>
+      <div className='pt-pb'>
+
+<FactSection/>
+</div>
       <CourseReview />
       <div className='pt-pb'>
       <CareerCounsellingStrip/>
@@ -303,10 +307,7 @@ const CourseDetails = ({ params }) => {
       
 
 
-<div className='pt-pb'>
 
-<FactSection/>
-</div>
 <PlaceMentReview/>
 
       <Footer />
