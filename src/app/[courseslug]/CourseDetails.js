@@ -15,6 +15,7 @@ import CourseDetailsEnrollButton from '@/utils/CourseDetailsEnrollButton';
 import { urlToUrlWithoutFlightMarker } from 'next/dist/client/components/app-router';
 import PlaceMentReview from '@/component/PlaceMentReview';
 import FactSection from '@/component/FactSection';
+import CareerCounsellingStrip from '@/component/CareerCounsellingStrip';
 // import TopBannerDetails from '@/component/TopBannerDetails';
 
 
@@ -295,6 +296,7 @@ const CourseDetails = ({ params }) => {
       </section>
       <CourseReview />
       <CompanyLogoSlider />
+      <CareerCounsellingStrip/>
 
 
       <FactSection/>

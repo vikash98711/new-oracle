@@ -9,7 +9,7 @@ const FactSection = () => {
   const { ref: ref4, inView: inView4 } = useInView({ triggerOnce: true });
 
   return (
-    <div className="fact-one pt-pb">
+    <div className="fact-one">
       <div className="container">
         <div className="row">
           {/* Happy Students */}

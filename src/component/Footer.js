@@ -127,24 +127,41 @@ const Footer = () => {
                       </div>
                     </ul>
                   </div>
-              <div className="col-lg-4">
-                <ul className="p-0">
-                  <h5 className="Secondary-orange-footer">Office Location</h5>
-                  <li className="text-white mb-5"><i className="fa-solid fa-location-dot"></i> <span className="Secondary-orange-footer border-bottom">Connaught Place:</span><br></br>3rd Floor, Mythri House, M-5A, Middle Circle, Connaught Place, Delhi - 110001, India
-                    <p className="text-white">
-                      <i className="fa-solid fa-envelope"></i>&nbsp;Inquiry@oracleglobaleducation.com
-                    </p>
-                  </li>
+                  <div className="col-lg-4">
+  <ul className="p-0">
+    <h5 className="Secondary-orange-footer">Office Location</h5>
 
+    <li className="text-white  d-flex align-items-start">
+      <i className="fa-solid fa-location-dot me-2 mt-1"></i>
+      <div>
+        <span className="Secondary-orange-footer border-bottom">Connaught Place:</span>
+        <p className="m-0 text-white">3rd Floor, Mythri House, M-5A, Middle Circle, Connaught Place, Delhi - 110001, India</p>
+        
+      </div>
+    </li>
+    <li className="">
+    <p className="text-white">
+          <i className="fa-solid fa-envelope"></i>&nbsp;Inquiry@oracleglobaleducation.com
+        </p>
+    </li>
 
+    <li className="text-white mb-0 d-flex align-items-start">
+      <i className="fa-solid fa-location-dot me-2 mt-1"></i>
+      <div>
+        <span className="Secondary-orange-footer border-bottom">Kingsway Camp:</span>
+        <p className="m-0 text-white">109 Mall Road, Kingsway Camp, GTB Nagar, (Near GTB Nagar Metro Station Gate No.-1) Delhi - 110009, India</p>
+  
+      </div>
+      
+    </li>
+<li>
+<p className="text-white m-0">
+          <i className="fa-solid fa-envelope"></i>&nbsp;Inquiry@oracleglobaleducation.com
+        </p>
+</li>
+  </ul>
+</div>
 
-                  <li className="text-white mb-0"><i className="fa-solid fa-location-dot"></i> <span className="Secondary-orange-footer border-bottom fw-bold">Kingsway Camp:</span><br></br>109 Mall Road, Kingsway Camp, GTB Nagar, (Near GTB Nagar Metro Station Gate No.-1) Delhi - 110009, India</li>
-                  <p className="text-white">
-                      <i className="fa-solid fa-envelope"></i>&nbsp;Inquiry@oracleglobaleducation.com
-                    </p>
-
-                </ul>
-              </div>
               <div className="col-lg-2 wrapper-image-Gallery">
 
                 <ul className="p-0">
@@ -160,7 +177,7 @@ const Footer = () => {
 
                   <li className="mt-3">
 
-<img style={{width:'120px'}} src="/assets/img/googlerealreview.png" alt="Google review" className="google-review-image-footer"/>
+<img style={{width:'120px'}} src="/assets/img/gooogle-removebg-preview.png" alt="Google review" className="google-review-image-footer"/>
 </li>
                 </ul>
    

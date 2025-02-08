@@ -5,7 +5,7 @@ const HappyStudentStrip = () => {
     <>
   <section className='schedule-sec'>
 <div className="container">
-    <div className="row d-flex  mb-2 position-relative">
+    <div className="row d-flex  mb-2 position-relative align-items-center">
     <div className=' col-lg-8 col-md-12 col-sm-12 py-100 pt-pb first-box-schedule'>
    
     <h2 className='text-white book-your-sheet-strip'>Book Your Seat For Free Career Counselling!

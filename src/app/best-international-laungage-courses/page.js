@@ -79,14 +79,14 @@ const page = () => {
                       <p className='mb-0'><i className="fa-regular fa-clock text-secondary me-2"></i>&nbsp;Timing- {courseValue.timing}</p>}
                       {courseValue.duration &&
                       <p><i className="fa-regular fa-clock text-secondary me-2"></i>&nbsp;Course Duration- {courseValue.duration}</p>}
-                      {courseValue.price &&
+                      {/* {courseValue.price &&
                     <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
                       <div className='d-flex  align-items-center justify-content-between gap-2 w-100'>
                         <p className="fw-bold text-white mb-0">Fees</p>
                         <h5 className=" text-end mb-0"> <i className="fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</h5>
                       </div>
                      
-                    </div> }
+                    </div> } */}
                   </div>
 
                 </div>

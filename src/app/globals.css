@@ -938,7 +938,7 @@ footer {
 }
 
 .Footer-section ul span {
-	font-size: 14px;
+	font-size: 18px;
 
 }
 
@@ -1462,11 +1462,24 @@ section.courses-review-wrapper {
 /* dashdotted ourservice after css starting here  */
 /* dashdotted ourservice after css starting here  */
 .fact-one {
-	position: relative;
+	/* position: relative;
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	background-size: auto;
-	padding: 100px 0;
+	padding: 100px 0; */
+	background-image: url('https://www.oracleglobaleducation.com/images/bg/career.jpg');
+    position: relative;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 248px 0;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-image: url(../images/bg/career.jpg); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+   
 
 }
 
@@ -5716,7 +5729,7 @@ button.accordion-button.collapsed:active,
 
 .contact-info .contact-box {
 
-
+margin: 5px;
 	padding: 20px;
 	min-height: 260px;
 	text-align: center;
@@ -6163,6 +6176,7 @@ a {
 	padding: 14px 30px;
 	line-height: 1;
 	display: block;
+	margin: 5px;
 }
 
 
@@ -6894,7 +6908,8 @@ p {
 }
 
 .notice-board .card-content p {
-	font-size: 14px;
+	/* font-size: 14px; */
+	font-size: 12px;
 	color: #000;
 
 }
@@ -6936,9 +6951,7 @@ a.btn-hover.bg-white.text-primary.Sechdule-afree-call {
 	letter-spacing: 2.5px;
 }
 
-.book-your-sheet-strip {
-	margin-bottom: 75px;
-}
+
 
 .place-mentwrapper-card {
 	width: 88% !important;
@@ -7134,7 +7147,7 @@ h5.mb-0.text-white.placement-slider-tag.company-place-ment-text {
 	}
 
 	.book-your-sheet-strip {
-		margin-bottom: 39px;
+		
 		letter-spacing: 2.5px;
 	}
 
@@ -7327,6 +7340,9 @@ h5.mb-0.text-white.placement-slider-tag.company-place-ment-text {
 	}
 	.wrapper-image-Gallery .google-review-image-footer{
 		width: 120px !important;
+	}
+	.wrapper-company-logos-sslider{
+		height: 100% !important;
 	}
 }
 

@@ -151,7 +151,7 @@ const settings = {
     autoplay: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     prevArrow: <CustomPrevArrow />, 
     nextArrow: <CustomNextArrow />, 
@@ -231,7 +231,7 @@ const PlaceMentReview = () => {
 
     return (
         <section className='pt-pb bg-grey placement-slider-wrappersection'>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="main-title text-center mb-0">
                     <h5 className="mb-0 text-white placement-slider-tag">find our footprints in the whole world by our Students | <span className='placement-ratio ms-2'>Placement Ratio 98.99%</span></h5>
                     <br></br>
@@ -244,7 +244,7 @@ const PlaceMentReview = () => {
                                 {reviews.map((review) => (
                                     <div className="px-2 place-mentwrapper-card" key={review.id}>
                                         <div className="notice-board">
-                                            <img src={review.image} alt={review.name} className='img-fluid w-100' style={{ height: "280px" }} />
+                                            <img src={review.image} alt={review.name} className='img-fluid w-100' style={{width:'180', height: "280px",padding:'15px' }} />
                                             <div className="card-content text-center">
                                                 <h3 className='text-ellipsis'>{review.name}</h3>
                                                 <p className="mb-1 placement-p-tag">{review.company}</p>

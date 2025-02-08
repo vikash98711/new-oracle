@@ -89,6 +89,7 @@ import Faq from "@/component/Faq";
 import PlaceMentReview from "@/component/PlaceMentReview";
 import Companyplacement from "@/component/Companyplacement";
 import GoogleReview from "@/component/GoogleReview";
+import FactSection from "@/component/FactSection";
 
 export default function Home() {
   useEffect(() => {
@@ -141,6 +142,8 @@ export default function Home() {
         <div data-aos="fade-right">
           <Blog />
         </div>
+<FactSection/>
+
         <GoogleReview/>
 
         <div data-aos="zoom-in">
@@ -150,14 +153,15 @@ export default function Home() {
         <div data-aos="flip-up">
           <CompanyLogoSlider />
         </div>
+        <div data-aos="fade-down">
+          <CareerCounsellingStrip />
+        </div>
 
         <div data-aos="fade-up">
           <Faq />
         </div>
 
-        <div data-aos="fade-down">
-          <CareerCounsellingStrip />
-        </div>
+       
 
         <div data-aos="fade-up">
           <Footer />

@@ -177,7 +177,6 @@ const Blog = () => {
     </div>
   </div>
 </div> */}
-<FactSection/>
         </section>
     );
 }
