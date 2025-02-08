@@ -25,45 +25,45 @@ const GoogleReview = () => {
     {
       image: "/assets/img/googlereview1.png",
       comment: "One of the best German language institute in Delhi India.",
-      name: "Akarshit Verma",
+      name: "Abhinav Jaiswal",
       occupation: "Student",
       subject: "German Language",
     },
     {
       image: "/assets/img/googlereview2.png",
       comment: "One of the best German language institute in Delhi India.",
-      name: "Parag",
+      name: "Praveen Thakur 8112",
       occupation: "Student",
       subject: "Spanish Language",
     },
     {
       image: "/assets/img/googlereview3.png",
       comment: "Very pleasant and helpful, I REALLY liked it.",
-      name: "Pooja",
-      occupation: "Student",
-      subject: "English",
-    },
-    {
-      image: "/assets/img/googlereview2.png",
-      comment: "One of the best German language institute in Delhi India.",
-      name: "Devanshu",
+      name: "Shani Bharti",
       occupation: "Student",
       subject: "English",
     },
     {
       image: "/assets/img/googlereview1.png",
       comment: "One of the best German language institute in Delhi India.",
-      name: "Gurleen",
+      name: "Abhinav Jaiswal",
       occupation: "Student",
-      subject: "French",
+      subject: "German Language",
+    },
+    {
+      image: "/assets/img/googlereview2.png",
+      comment: "One of the best German language institute in Delhi India.",
+      name: "Praveen Thakur 8112",
+      occupation: "Student",
+      subject: "Spanish Language",
     },
     {
       image: "/assets/img/googlereview3.png",
-      comment: "One of the best German language institute in Delhi India.",
-      name: "Kanika",
+      comment: "Very pleasant and helpful, I REALLY liked it.",
+      name: "Shani Bharti",
       occupation: "Student",
-      subject: "German",
-    },
+      subject: "English",
+    }
   ];
 
   return (
