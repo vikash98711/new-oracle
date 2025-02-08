@@ -101,7 +101,7 @@ const handleSubmit = async (e)=>{
                </div>
                <div className="col-sm-12"> 
                
-               <input type="text"  className='form-control' value={formdata.education} name='education' placeholder='Education' required onChange={(e)=>HandleChange(e)}/> 
+               <input type="text"  className='form-control' value={formdata.education} name='education' placeholder='Message' required onChange={(e)=>HandleChange(e)}/> 
 
                </div>
              <div className='col-lg-12 text-end mt-2'>
