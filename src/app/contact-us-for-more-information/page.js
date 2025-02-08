@@ -3,6 +3,7 @@ import ContacusForm from '@/component/ContacusForm';
 import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 import Footer from '@/component/Footer';
 import Navigation from '@/component/Navigation';
+import QuiryForm from '@/component/QuiryForm';
 import TopBannerDetails from '@/component/TopBannerDetails';
 import Link from 'next/link';
 
@@ -58,7 +59,9 @@ const page = () => {
     </div>
   </div>
 </section>
-<ContacusForm/>
+{/* <ContacusForm/> */}
+<QuiryForm/>
+
 <section className='wrapper-maps-cotactpage pt-pb'>
     <div className='container'>
         <div className='row'>
